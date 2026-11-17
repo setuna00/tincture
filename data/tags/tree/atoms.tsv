@@ -1,0 +1,195 @@
+# 细分类的原子（最细的小类）。tag 只分到原子上，可以挂多个，第一个是主位（推荐的槽、tag 面板的「同类」看主位）。
+# A / B / C 三份内置 list（a.txt / b.txt / c.txt）只是把同一批原子排成不同的树。
+# 列：原子	域	说明
+原子	域	说明
+人数	人物	几个人、单人 / 多人 / 无人：1girl、solo、multiple girls、no humans
+性别	人物	性别和性别表现：androgynous、otoko no ko、tomboy
+年龄	人物	年龄段和年龄变化：child、mature female、old man、aged down
+身份职业	人物	职业、身份、角色定位：maid、nurse、knight、witch、idol、miko
+种族	人物	非人种族 / 拟人：elf、demon girl、angel、robot、monster girl、vampire、cat girl
+关系	人物	人物之间的关系：siblings、couple、mother and daughter、yuri、friends
+人设属性	人物	性格 / 人设标签：yandere、tsundere、kuudere、chuunibyou、ojou-sama（性格）、mesugaki
+变装改动	人物	和原设不同：alternate costume、cosplay、genderswap、alternate hairstyle
+体型	身体	整体体型和身高：muscular、plump、skinny、petite、height difference
+肤色	身体	皮肤颜色：dark skin、pale skin、tan、tanlines、colored skin
+头面	身体	脸上的部位：forehead、lips、tongue、nose、eyebrows、eyelashes
+耳	身体	人的耳朵、尖耳：pointy ears（兽耳另算）
+颈肩背	身体	collarbone、neck、bare shoulders、back、nape
+胸	身体	breasts 大小和形态：large breasts、flat chest、cleavage、sideboob
+腰腹	身体	navel、midriff、stomach、abs、waist
+臀胯	身体	ass、wide hips、groin
+手臂	身体	bare arms、armpits、biceps
+手	身体	hands、fingers、fingernails、claws
+腿	身体	legs、thighs、knees、thick thighs
+脚	身体	feet、toes、barefoot、soles
+痣疤纹身	身体	皮肤上的标记：mole、freckles、scar、tattoo、facial mark、body markings
+妆容	身体	makeup、lipstick、eyeshadow、nail polish、eyeliner
+胡须体毛	身体	beard、mustache、stubble、chest hair
+伤与包扎	身体	injury、blood、bandages、bruise、band-aid（战斗图常用，全年龄）
+汗与体液	身体	sweat、saliva、drooling、wet（身上湿）
+兽耳	身体	animal ears 及各种兽耳：cat ears、fox ears、rabbit ears、animal ear fluff
+尾巴	身体	tail、cat tail、fox tail、dragon tail
+角	身体	horns、demon horns、single horn
+翅膀	身体	wings、angel wings、demon wings、bat wings、fairy wings
+光环与异形部位	身体	halo、extra arms、extra eyes、mechanical arms、tentacle hair 这类非人部位
+发长	头发	very short hair … absurdly long hair、bob cut、pixie cut、hime cut、undercut
+扎发	头发	ponytail、twintails、two side up、side ponytail、one side up
+编发	头发	braid、twin braids、french braid、side braid、crown braid
+盘发	头发	hair bun、double bun、chignon、发髻、复杂盘发
+刘海前发	头发	bangs、blunt bangs、hair between eyes、sidelocks、ahoge、hair over one eye、hair intakes
+发质造型	头发	wavy hair、curly hair、straight hair、messy hair、drill hair、spiked hair
+发色	头发	单一发色：blonde hair、black hair、blue hair…
+挑染渐变	头发	multicolored hair、gradient hair、streaked hair、two-tone hair、colored inner hair
+头发动作	头发	floating hair、hair spread out、adjusting hair、hair flip、wet hair、playing with own hair
+眼睛颜色	五官表情	blue eyes、red eyes、heterochromia、瞳孔颜色
+眼型瞳孔	五官表情	tsurime、tareme、slit pupils、symbol-shaped pupils、ringed eyes、glowing eyes
+眼部表情	五官表情	closed eyes、one eye closed、half-closed eyes、wide-eyed、narrowed eyes、jitome、empty eyes
+视线	五官表情	looking at viewer、looking away、looking back、looking down、eye contact
+笑	五官表情	smile、grin、smirk、laughing、smug、:d
+情绪	五官表情	angry、sad、surprised、scared、embarrassed、frown、expressionless、serious
+脸红泪水	五官表情	blush、tears、crying、streaming tears、nosebleed、full-face blush
+嘴型	五官表情	open mouth、closed mouth、parted lips、tongue out、teeth、fang、pout、:3、:o、:p、biting own lip
+漫画符号	五官表情	sweatdrop、anger vein、heart、spoken heart、!、?、颜文字脸（o_o、>_<）、meme face
+帽子	服装	hat、beret、baseball cap、witch hat、hood
+头饰发饰	服装	hairband、hair ribbon、hair ornament、hairclip、hair bow、headband、maid headdress、veil
+头盔冠冕	服装	helmet、crown、tiara、circlet
+眼镜	服装	glasses、sunglasses、goggles、monocle
+面具眼罩	服装	mask、eyepatch、mouth mask、blindfold
+耳饰	服装	earrings、ear piercing、earmuffs、headphones
+领饰	服装	necktie、bowtie、neckerchief、ascot、neck ribbon
+颈饰	服装	choker、collar、necklace、pendant
+围巾披肩	服装	scarf、shawl、stole、capelet、披在肩上的
+上衣	服装	shirt、blouse、sweater、hoodie、crop top、tank top、t-shirt、camisole
+外套	服装	jacket、coat、vest、cardigan、blazer、cape、cloak
+内衣（上）	服装	bra、sports bra、undershirt、sarashi
+袖子	服装	long sleeves、short sleeves、detached sleeves、puffy sleeves、sleeves past wrists、sleeves rolled up
+手套	服装	gloves、elbow gloves、fingerless gloves、mittens
+手饰	服装	bracelet、ring、wristband、armband、wrist cuffs、watch
+腰饰	服装	belt、sash、obi、waist bow
+裙	服装	skirt、pleated skirt、miniskirt、long skirt
+裤	服装	pants、shorts、jeans、bloomers、hakama pants
+内衣（下）	服装	panties、thong、boxers、fundoshi
+袜	服装	thighhighs、pantyhose、kneehighs、socks、leggings、zettai ryouiki
+腿饰	服装	garter straps、thigh strap、leg ribbon、anklet、leg garter
+鞋	服装	boots、shoes、sandals、high heels、loafers、sneakers
+连衣裙	服装	dress、sundress、evening gown、wedding dress
+连体紧身	服装	bodysuit、leotard、jumpsuit、playboy bunny、plugsuit
+制服	服装	school uniform、serafuku、military uniform、police uniform、gakuran
+职业装	服装	maid apron、apron、lab coat、nurse cap、chef uniform
+传统民族	服装	kimono、yukata、hanfu、qipao、hakama、dirndl、各国传统服装
+泳装	服装	swimsuit、bikini、school swimsuit、one-piece swimsuit
+睡衣家居	服装	pajamas、nightgown、bathrobe、naked towel
+戏服铠甲	服装	armor、costume、magical girl 服、superhero costume、pauldrons
+包与随身	服装	bag、backpack、handbag、satchel、randoseru
+其他饰品	服装	jewelry、brooch、piercing、gem、badge、pin、不好按部位分的饰品
+穿着状态	服装	open clothes、unbuttoned、clothes lift、torn clothes、wet clothes、see-through clothes、off shoulder
+图案	服装	striped、plaid、polka dot、floral print、各种 print、传统纹样
+材质	服装	latex、leather、denim、fur、silk、knit
+款式细节	服装	frills、lace trim、buttons、zipper、clothing cutout、collar 样式、neckline、sleeveless、strapless
+服装风格	服装	gothic lolita、gyaru、punk、casual、formal、streetwear、各年代 / 地区时尚
+基本姿势	姿势动作	standing、sitting、lying、kneeling、squatting、on back、on stomach、all fours、seiza
+躯干头部	姿势动作	head tilt、leaning forward、arched back、bent over、head rest、arm support、turning head
+手臂姿势	姿势动作	arms up、arms behind back、outstretched arm、crossed arms
+手的位置	姿势动作	hand on own hip、hand on own face、hand on own chest、hands in pockets、covering mouth
+手势	姿势动作	peace sign、v、thumbs up、pointing、ok sign、heart hands、clenched hand、waving、salute
+腿部姿势	姿势动作	crossed legs、legs up、knees up、leg up、knees together feet apart、standing on one leg
+定型姿势	姿势动作	contrapposto、jojo pose、fighting stance、ojou-sama pose 这类有名的姿势
+移动	姿势动作	walking、running、jumping、falling、flying、floating、swimming、climbing
+日常动作	姿势动作	eating、drinking、sleeping、reading、writing、cooking、bathing、selfie
+战斗动作	姿势动作	punching、kicking、aiming、slashing、attack、casting spell、battle
+表演	姿势动作	dancing、singing、playing instrument、concert、idol 演出、乐队
+运动	姿势动作	sports 及各项运动：soccer、basketball、tennis、swimming（比赛）
+拿着	姿势动作	holding 及 holding X
+两人互动	姿势动作	hug、kiss、holding hands、carrying、lap pillow、headpat、piggyback、hug from behind
+取景	构图镜头	portrait、upper body、cowboy shot、full body、close-up、lower body、wide shot、feet out of frame
+视角	构图镜头	from above、from below、from side、from behind、dutch angle、pov、straight-on
+焦点	构图镜头	solo focus、male focus、foot focus、eye focus、hand focus（ass focus 等主位也在这）
+透视景深	构图镜头	depth of field、foreshortening、fisheye、perspective、blurry foreground
+构图手法	构图镜头	symmetry、negative space、silhouette、reflection、centered、framed、scenery
+多格版式	构图镜头	comic、4koma、multiple views、split screen、inset、collage、variations
+光向	光影色彩	backlighting、sidelighting、front lighting
+光源	光影色彩	sunlight、moonlight、candlelight、neon lights、lamp、lantern、spotlight、stage lights
+光效	光影色彩	light rays、sunbeam、lens flare、glowing、sparkle、caustics、dappled sunlight、light particles
+明暗	光影色彩	shadow、dark、darkness、chiaroscuro
+元素特效	光影色彩	fire、electricity、ice、magic、aura、explosion、smoke、energy
+色调	光影色彩	warm colors、cool colors、pastel colors、muted color、high contrast、sepia、colorful
+单色限色	光影色彩	monochrome、greyscale、limited palette、spot color、red theme、partially colored
+媒介	画法	traditional media、watercolor (medium)、graphite (medium)、marker (medium)、colored pencil (medium)、oil painting (medium)、ink (medium)、crayon
+数字与软件	画法	pixel art、3d、oekaki、绘画软件（clip studio paint 等）
+年代画风	画法	1980s (style)、1990s (style)、retro artstyle
+画风流派	画法	realistic、chibi、ukiyo-e、art nouveau、impressionism
+美学风格	画法	gothic、dreamy、vaporwave、horror 氛围这类整体审美
+仿作	画法	style parody、fine art parody、某某 (style)
+线条	画法	lineart、no lineart、sketch、thick outlines、outline
+上色	画法	flat color、cel shading、anime coloring、gradient、soft shading
+画面效果	画法	chromatic aberration、film grain、bloom、bokeh、motion blur、halftone、glitch、motion lines
+成品形式	画法	cover、reference sheet、border、letterboxed、official art、game cg、photo (medium)、fake screenshot
+界面元素	画法	画面里的界面 / 游戏 UI：user interface、health bar、cursor、livestream、subtitled
+瑕疵	画法	lowres、jpeg artifacts、bad anatomy、bad hands、artistic error（负面常用）
+地面墙面	场景	地板、墙面、室内外表面：wooden floor、tile floor、tatami、brick wall、stone floor
+点缀元素	场景	画面里飘着 / 散落的点缀：confetti、bubble、feathers、floating object、water drop、crystal
+室内室外	场景	indoors、outdoors
+居家	场景	bedroom、kitchen、bathroom、living room、apartment
+学校	场景	classroom、school、hallway、locker room、school rooftop
+公共室内	场景	cafe、restaurant、shop、hospital、office、library、train interior、bar (place)、stage、pool
+自然	场景	forest、mountain、beach、river、lake、field、flower field、cave、desert、park
+水与水下	场景	water、ocean、underwater、waves、partially submerged
+天空宇宙	场景	sky、cloud、starry sky、moon、sun、space、planet
+城市街道	场景	city、street、alley、bridge、crosswalk、cityscape、road
+建筑名胜	场景	building、house、shrine、castle、ruins、temple、tower、rooftop、train station、torii
+真实地点	场景	japan、tokyo、paris、各国家 / 城市 / 地标
+天气	场景	rain、snow、fog、wind、cloudy sky、storm、rainbow、lightning
+时间	场景	day、night、sunset、twilight、evening、dawn
+季节节日	场景	spring (season)、summer、autumn、winter、christmas、halloween、new year、valentine
+背景处理	场景	simple background、white background、gradient background、blurry background、transparent background
+世界观题材	场景	fantasy、science fiction、cyberpunk、steampunk、post-apocalypse、military
+食物	物品	food、fruit、meat、rice、bread、vegetable
+甜点零食	物品	cake、candy、ice cream、cookie、chocolate、pocky
+饮料	物品	drink、tea、coffee、alcohol、juice、milk
+餐具容器	物品	cup、mug、plate、bowl、bottle、chopsticks、spoon、teapot
+武器通用	物品	看不出类型的武器和武器周边：weapon、huge weapon、weapon on back、holster、planted
+冷兵器	物品	sword、katana、dagger、spear、axe、scythe、bow (weapon)、shield
+枪械火器	物品	gun、rifle、handgun、shotgun、具体枪型、炸弹
+魔法道具	物品	staff、wand、magic circle、crystal ball、grimoire
+乐器	物品	instrument、guitar、piano、violin、drum
+电子设备	物品	phone、computer、camera、television、game controller、microphone
+交通工具	物品	car、motorcycle、bicycle、train、airplane、ship、spacecraft、具体车 / 机 / 舰型
+机甲科技	物品	mecha、robot joints、hologram、cybernetics
+家具家居	物品	chair、bed、table、desk、couch、pillow、blanket、window、door、curtains
+书本文具	物品	book、pen、paper、notebook、letter、envelope
+玩具游戏	物品	stuffed toy、teddy bear、doll、card、board game、dice
+运动用品	物品	ball、soccer ball、baseball bat、tennis racket
+日用杂物	物品	umbrella、box、bucket、key、clock、mirror、cigarette、candle、tools
+符号图形	物品	star (symbol)、musical note、cross、arrow (symbol)、flag、emblem
+品牌	物品	品牌和公司：coca-cola、nike…
+猫	生物	cat、black cat、kitten
+狗	生物	dog、shiba inu、puppy
+鸟	生物	bird、crow、owl、penguin、chick
+水生动物	生物	fish、whale、shark、octopus、jellyfish、goldfish、crab
+虫与爬行	生物	butterfly、bug、snake、frog、lizard、spider、turtle
+其他动物	生物	rabbit、fox、horse、bear、deer、hamster、wolf
+作品生物	生物	作品里的生物：pokemon (creature)、digimon (creature)、shiny pokemon
+幻想生物	生物	dragon、slime (creature)、monster、ghost、unicorn、kitsune
+植物	生物	plant、tree、leaf、grass、vines、bamboo
+花	生物	flower、rose、cherry blossoms、sunflower、lily (flower)
+质量美学	元信息	NAI 质量 / 美学词、masterpiece、highres、absurdres
+年份分级	元信息	year 2024、rating:general…
+文字对白	元信息	text、english text、speech bubble、sound effects、dialogue、各语言文字
+签名水印	元信息	signature、watermark、artist name、dated、twitter username、logo
+裸露	R18	nude、topless、bottomless、no panties、breasts out、naked apron
+性征	R18	nipples（主位在「胸」）、pussy、penis、pubic hair、anus
+性行为	R18	sex、oral、paizuri、masturbation、各种性行为
+体位	R18	missionary、cowgirl position、doggystyle、各种体位
+多人	R18	group sex、threesome、gangbang
+体液	R18	cum 及相关
+道具	R18	sex toy、vibrator、dildo、condom
+束缚调教	R18	bondage、shibari、gag、leash、BDSM
+情趣服装	R18	crotchless panties、pasties、cupless bra
+表现手法	R18	x-ray、cross-section、ahegao、after sex、implied sex、exhibitionism
+审查遮挡	R18	censored、mosaic censoring、bar censor、convenient censoring
+猎奇	R18G	guro、decapitation、intestines、quadruple amputee、corpse
+酷刑	R18G	torture 及刑具、殴打
+吞食	R18G	vore
+排泄	R18G	scat、peeing
+梗与联动	其他	角色之间的梗和联动：name connection、voice actor connection、trait connection、crossover、cameo、artist self-insert
+站务	其他	Danbooru 站务词：commentary、bad id、md5 mismatch、translation request

@@ -1,0 +1,1229 @@
+# NSFW 档的手调表，优先于分级数据（data/tags/ratings.tsv）和原子。
+# 档：全年龄 · 擦边（只标记不藏）· R18 · R18G。
+# 默认规则：q+e ≥50% 是 R18，主位或第二个位置在 R18 原子上的也是；挂在 R18G 原子上的是 R18G。
+# 这张表管默认规则管错的。怎么判断：
+#   - 拉回全年龄：词本身没有性含义、全年龄图里也大量在用（姿势、地点、构图、体型、表情、元信息……），只是在 R18 图里出现得多。
+#   - 降成擦边：内衣 / 泳装 / 衣服掀起敞开 / 身材描述这类，和 cleavage、swimsuit 一样只标记。
+#   - 词本身就在讲裸露、性器官、性行为的（no panties、no bra、spread legs、straddling……）不进这张表，照数据。
+#   - 看的是主位不在 R18 原子上、全年龄图里用过 ≥1000 次的（约 330 个）；更冷门的照数据（全年龄图里本来就用得少，藏了影响小）。
+# 分级说的是整张图，不是 tag 本身（washing hair 68% 是因为洗头的图多在浴室）。
+#   拿 NAI 不登录的补全当参照：R18 档里 NAI 照给的、全年龄 / 擦边里 q+e ≥30% 而 NAI 藏了的，逐个按词义重判。
+#   标准只看 tag 本身是什么意思，不看它常出现在什么图里：
+#   - 全年龄：中性的动作、东西、场景、身体特征、站务；普通肢体接触（抓手臂、抓腿、握脚踝）。
+#   - 擦边：内衣 / 泳装和它们的状态（解开、脱下、拿着）、掀衣 / 敞开 / 撕破、胸臀的身材描述和特写、被遮住的裸体
+#     （头发 / 手 / 尾巴恰好挡住）、暧昧但不是性行为的接触（摸别人大腿、舔、咬痕）。
+#   - R18：性行为和它的痕迹、性器官、露骨的裸体（没穿内衣、只穿一件外衣的 naked X、下身褪下）、性暗示的姿势和手势、性癖。
+#   - R18G：猎奇、酷刑、吞食、排泄。
+#   硬规定：涉及未成年、把未成年或外观未成年的角色性化的，一律不降档（loli、mesugaki、school swimsuit flap、buruma……）。
+#   同一组前后一致：洗澡一组（洗、肥皂、淋浴是全年龄，共浴是擦边）、肢体接触、naked X、X between breasts。
+#   主位在 R18 原子上的要连原子一起挪，发现页按原子整块藏。
+#   主位在 R18 原子上、NAI 照给的 226 个按同一套标准判，降了的 139 个连主位一起挪（tree/overrides.tsv）。
+#   被绑 / 被俘 / 人质式的堵嘴（bound、gagged、tied to chair……）同 handcuffs、kidnapping 是全年龄；专门的 BDSM 器具和绑法（ball gag、karada、pillory……）R18。
+#   第三列是理由（部分行有）。
+tag	档	理由
+# ---- NAI 特殊词（没有分级数据） ----
+nsfw	R18
+rating:general	全年龄
+rating:sensitive	擦边
+rating:questionable	R18
+rating:explicit	R18
+# ---- 姿势 ----
+lying	全年龄
+on back	全年龄
+on bed	全年龄
+all fours	全年龄
+bent over	全年龄
+arched back	全年龄
+legs up	全年龄
+leg lift	全年龄
+split	全年龄
+standing split	全年龄
+knees to chest	全年龄
+knees apart feet together	全年龄
+head back	全年龄
+against wall	全年龄
+flexible	全年龄
+# ---- 表情、动作 ----
+nose blush	全年龄
+trembling	全年龄
+drooling	全年龄
+wince	全年龄
+biting own lip	全年龄
+spoken heart	全年龄
+faceless	全年龄
+faceless male	全年龄
+teasing	全年龄
+tickling	全年龄
+arm grab	全年龄
+holding another's wrist	全年龄
+grabbing another's hair	全年龄
+hands on another's head	全年龄
+hand on another's stomach	全年龄
+after kiss	全年龄
+lipstick mark	全年龄
+bathing	全年龄
+defeat	全年龄
+recording	全年龄
+heart-shaped pupils	擦边
+seductive smile	擦边
+licking	擦边
+come hither	擦边
+bite mark	擦边
+hickey	擦边
+clothes in mouth	擦边
+finger in another's mouth	擦边
+head between breasts	擦边
+face to breasts	擦边
+breast hold	擦边
+breast lift	擦边
+breast press	擦边
+breast suppress	擦边
+symmetrical docking	擦边
+asymmetrical docking	擦边
+hand on own ass	擦边
+hand on another's thigh	擦边
+against glass	擦边
+# ---- 身体、体型 ----
+sweat	全年龄
+breath	全年龄
+very sweaty	擦边
+dark-skinned male	全年龄
+toe scrunch	全年龄
+flat ass	全年龄
+strongman waist	全年龄
+ass visible through thighs	擦边
+bursting breasts	擦边
+flat chest	全年龄
+shiny skin	全年龄
+tan	全年龄
+curvy	全年龄
+plump	全年龄
+fat	全年龄
+petite	全年龄
+mature female	全年龄
+soles	全年龄
+kneepits	全年龄
+ribs	全年龄
+belly	全年龄
+hip bones	全年龄
+leg hair	全年龄
+navel hair	全年龄
+hairy	全年龄
+body freckles	全年龄
+ass	擦边
+groin	擦边
+huge breasts	擦边
+gigantic breasts	擦边
+alternate breast size	擦边
+thick thighs	擦边
+wide hips	擦边
+huge ass	擦边
+butt crack	擦边
+crotch seam	擦边
+dimples of venus	擦边
+armpit hair	擦边
+covered nipples	擦边
+tanlines	擦边
+one-piece tan	擦边
+bikini tan	擦边
+body blush	擦边
+# ---- 内衣、泳装、穿着状态 ----
+underwear	擦边
+panties	擦边
+white panties	擦边
+side-tie panties	擦边
+striped panties	擦边
+pink panties	擦边
+bow panties	擦边
+blue panties	擦边
+red panties	擦边
+purple panties	擦边
+lace-trimmed panties	擦边
+string panties	擦边
+green panties	擦边
+print panties	擦边
+yellow panties	擦边
+polka dot panties	擦边
+lowleg panties	擦边
+lace panties	擦边
+thong	擦边
+boxers	擦边
+male underwear	擦边
+black male underwear	擦边
+fundoshi	擦边
+lingerie	擦边
+pink bra	擦边
+striped bra	擦边
+garter belt	擦边
+black garter belt	擦边
+micro bikini	擦边
+thong bikini	擦边
+slingshot swimsuit	擦边
+eyepatch bikini	擦边
+untied bikini	擦边
+bikini bottom only	擦边
+cow print bikini	擦边
+one-piece swimsuit pull	擦边
+torn pantyhose	擦边
+torn legwear	擦边
+torn bodysuit	擦边
+unworn panties	擦边
+holding panties	擦边
+holding underwear	擦边
+latex	擦边
+clothes lift	擦边
+lifting own clothes	擦边
+dress lift	擦边
+open shirt	擦边
+open dress	擦边
+undressing	擦边
+pulling own clothes	擦边
+clothes down	擦边
+untied	擦边
+unworn clothes	全年龄
+unworn shirt	全年龄
+undersized clothes	擦边
+wardrobe malfunction	擦边
+covering crotch	擦边
+body writing	擦边
+stripper pole	擦边
+unworn skirt	擦边
+gusset	擦边
+barbell piercing	擦边
+blindfold	全年龄
+# ---- 地点、物品、图案 ----
+bed	全年龄
+bed sheet	全年龄
+head on pillow	全年龄
+onsen	全年龄
+bath	全年龄
+bathtub	全年龄
+bathroom	全年龄
+locker room	全年龄
+tile wall	全年龄
+toilet	全年龄
+tissue	全年龄
+tissue box	全年龄
+shower head	全年龄
+on table	全年龄
+cellphone photo	全年龄
+steam	全年龄
+smell	全年龄
+slime (substance)	全年龄
+cow print	全年龄
+cow print gloves	全年龄
+cow print thighhighs	全年龄
+cow girl	全年龄
+orc	全年龄
+goblin	全年龄
+# ---- 关系 ----
+age difference	全年龄
+harem	全年龄
+furry with furry	全年龄
+furry with non-furry	全年龄
+# ---- 构图、画法、元信息 ----
+solo focus	全年龄
+pov	全年龄
+head out of frame	全年龄
+disembodied hand	全年龄
+motion lines	全年龄
+sound effects	全年龄
+game cg	全年龄
+doujin cover	全年龄
+3d	全年龄
+blender (medium)	全年龄
+dakimakura (medium)	全年龄
+textless version	全年龄
+variant set	全年龄
+large variant set	全年龄
+has bad revision	全年龄
+content rating	全年龄
+off-topic	全年龄
+paid reward	全年龄
+paid reward available	全年龄
+patreon reward	全年龄
+patreon username	全年龄
+patreon logo	全年龄
+pixiv commission	全年龄
+# ---- 拉回全年龄，377 个，按作品数 ----
+hetero	全年龄	异性之间的恋爱或性，和 yuri、yaoi（全年龄）一致
+saliva	全年龄	唾液，和已拉回的 drooling 一致
+trap	全年龄	伪娘，人设属性，和 otoko no ko 一致
+veins	全年龄	青筋，身体特征
+heavy breathing	全年龄	喘气，同 breath
+interracial	全年龄	跨种族的恋爱或性，同 hetero
+grabbing another's arm	全年龄	抓手臂，普通肢体接触
+mind control	全年龄	精神控制，全年龄作品常见的题材
+fat man	全年龄	体型
+leg grab	全年龄	抓腿，普通肢体接触
+tape	全年龄	胶带
+sheet grab	全年龄	抓床单
+twitching	全年龄	抽搐，同 trembling
+soap bubbles	全年龄	肥皂泡，洗澡一组
+strangling	全年龄	掐脖子，暴力动作（血、伤留在全年龄）
+showering	全年龄	淋浴，同 bathing
+holding another's leg	全年龄	抓腿，同 leg grab
+head grab	全年龄	抓住头，肢体动作
+reflection focus	全年龄	倒影特写，构图
+ring light reflection	全年龄	环形灯反光，光效
+fanbox username	全年龄	站务
+slave	全年龄	奴隶，身份；BDSM 道具另有 tag
+pillow grab	全年龄	抓枕头
+shower (place)	全年龄	淋浴间，同 bathroom
+holding own leg	全年龄	抱自己的腿
+latex gloves	全年龄	乳胶手套（医用常见）
+livestream	全年龄	直播
+runny makeup	全年龄	妆花了
+hand on another's leg	全年龄	手放别人腿上（大腿的是擦边）
+3d background	全年龄	画法
+gym storeroom	全年龄	体育器材室，场景
+mole on stomach	全年龄	腹部痣
+soap	全年龄	肥皂，洗澡一组
+holding another's legs	全年龄	同 leg grab
+unworn dress	全年龄	同 unworn clothes
+vaulting horse	全年龄	跳马
+outie navel	全年龄	凸肚脐，身体特征
+collared shrug	全年龄	服装款式
+tail grab	全年龄	抓尾巴
+body hair	全年龄	同 hairy
+sponge	全年龄	海绵
+hands on another's hips	全年龄	扶腰
+uvula	全年龄	悬雍垂，身体部位
+glowing tattoo	全年龄	纹身
+subscribestar username	全年龄	站务
+high-waist pantyhose	全年龄	袜
+gyaruo	全年龄	服装风格
+leg hold	全年龄	抱腿
+sun tattoo	全年龄	纹身
+sauna	全年龄	桑拿，同 onsen
+front-to-back	全年龄	正面贴着背面站，同 hug from behind
+female goblin	全年龄	种族，同 goblin
+satin	全年龄	材质
+after bathing	全年龄	浴后，同 bathing
+cross-eyed	全年龄	斗鸡眼
+hands on another's chest	全年龄	手放别人胸前（多是男性胸口）
+holding legs	全年龄	同 holding own leg
+very long tongue	全年龄	长舌头
+holding another's horns	全年龄	抓角
+tickling feet	全年龄	同 tickling
+stain	全年龄	污渍
+ugly man	全年龄	人设属性
+ganguro	全年龄	服装风格
+choke hold	全年龄	锁喉，格斗动作
+ankle grab	全年龄	抓脚踝，普通肢体接触
+grabbing another's twintails	全年龄	抓双马尾，同 grabbing another's hair
+dogeza	全年龄	土下座
+saliva drip	全年龄	滴口水，同 drooling
+soap bottle	全年龄	洗澡一组
+unworn shorts	全年龄	同 unworn clothes
+dungeon	全年龄	地牢，场景
+tentacle girl	全年龄	怪物娘
+measuring	全年龄	测量
+bent over furniture	全年龄	同 bent over
+holding another's foot	全年龄	握脚
+face in pillow	全年龄	脸埋枕头
+fake video	全年龄	界面元素
+bath stool	全年龄	浴凳，同 bath
+pregnancy test	全年龄	日用杂物
+thick chest hair	全年龄	同 hairy
+gumroad username	全年龄	站务
+bathhouse	全年龄	澡堂，同 onsen
+fat rolls	全年龄	体型
+clothes on floor	全年龄	同 unworn clothes
+shampoo bottle	全年龄	洗澡一组
+hand on another's knee	全年龄	手放别人膝上
+horn grab	全年龄	抓角
+long toenails	全年龄	脚
+tickling armpits	全年龄	同 tickling
+spade tattoo	全年龄	黑桃纹身（带 Q 的另有 queen of spades symbol，照旧 R18）
+washing	全年龄	清洗
+holding shower head	全年龄	同 shower head
+folded clothes	全年龄	叠好的衣服
+unworn pants	全年龄	同 unworn clothes
+lace thighhighs	全年龄	袜
+sway back	全年龄	姿势
+peril	全年龄	危机，题材
+razor blade hair ornament	全年龄	发饰
+mature eyes	全年龄	眼型
+holding another's ankle	全年龄	同 ankle grab
+grabbing own thigh	全年龄	同 hand on own thigh
+hands on another's stomach	全年龄	同 hand on another's stomach
+washing hair	全年龄	洗头
+changing room	全年龄	同 locker room
+thick navel hair	全年龄	同 navel hair
+alternate pectoral size	全年龄	身材
+narrow hips	全年龄	身材
+holding sponge	全年龄	洗澡一组
+swallowing	全年龄	吞咽
+holding another's ankles	全年龄	同 ankle grab
+sparse navel hair	全年龄	同 navel hair
+manboobs	全年龄	男性胸部（胖），身材
+female orc	全年龄	种族，同 orc
+neck grab	全年龄	掐脖子，同 strangling
+hanging legs	全年龄	悬着腿
+fanbox logo	全年龄	站务
+sparse leg hair	全年龄	同 leg hair
+very hairy	全年龄	同 hairy
+kidnapping	全年龄	绑架，题材
+restroom	全年龄	同 toilet
+pov legs	全年龄	视角
+hotel room	全年龄	场景
+rubbing	全年龄	揉搓
+sunken cheeks	全年龄	凹陷的脸颊
+holding leg	全年龄	同 holding own leg
+cheek tattoo	全年龄	纹身
+subscribestar logo	全年龄	站务
+togruta	全年龄	星球大战种族
+cut-in	全年龄	取景
+sitting split	全年龄	同 split
+scissorhold	全年龄	剪刀腿锁，格斗动作
+byakugan	全年龄	火影的白眼
+bubble bath	全年龄	泡泡浴，洗澡一组
+hip dips	全年龄	身材
+feminization	全年龄	女性化，性别变化
+source filmmaker (medium)	全年龄	软件名
+holding id card	全年龄	拿证件
+gold thighhighs	全年龄	袜
+air mattress	全年龄	充气床垫
+thick leg hair	全年龄	同 leg hair
+object in clothes	全年龄	衣服里有东西
+grabbing another's head	全年龄	同 head grab
+bmp-to-png conversion	全年龄	站务
+draenei	全年龄	魔兽种族
+injection	全年龄	注射
+shampoo	全年龄	洗发水，洗澡一组
+against table	全年龄	同 against wall
+foot on head	全年龄	脚踩头
+contortion	全年龄	柔术
+applying sunscreen	全年龄	涂防晒霜
+in locker	全年龄	在储物柜里
+cupping hand	全年龄	手势
+shaving	全年龄	剃毛
+modeling	全年龄	当模特
+shower curtain	全年龄	洗澡一组
+unworn belt	全年龄	同 unworn clothes
+surprised arms	全年龄	手臂姿势
+night elf (warcraft)	全年龄	魔兽种族
+punishment	全年龄	惩罚，题材
+unworn kimono	全年龄	同 unworn clothes
+florence nightingale (fate) (cosplay)	全年龄	角色 cosplay
+forward facing horns	全年龄	角
+frontbend	全年龄	姿势
+hair tattoo	全年龄	纹身
+barn	全年龄	场景
+tongue grab	全年龄	抓舌头
+florence nightingale (trick or treatment) (fate) (cosplay)	全年龄	角色 cosplay
+christian louboutin (brand)	全年龄	品牌
+spoken mars symbol	全年龄	漫画符号
+headboard	全年龄	床头板
+step and repeat	全年龄	背景板
+interlocked mars and venus symbols	全年龄	符号
+character watermark	全年龄	签名水印
+incoming call	全年龄	来电
+tickling stomach	全年龄	同 tickling
+prehensile tongue	全年龄	长舌头
+grenade hair ornament	全年龄	发饰
+red blindfold	全年龄	同 blindfold
+tail pull	全年龄	拉尾巴
+gumroad logo	全年龄	站务
+alraune	全年龄	花妖，种族
+against door	全年龄	同 against wall
+grabbing another's stomach	全年龄	同 hand on another's stomach
+arched soles	全年龄	同 soles
+alternate body hair	全年龄	体毛
+competition	全年龄	比赛
+hand around waist	全年龄	搂腰
+tickling legs	全年龄	同 tickling
+downward dog	全年龄	瑜伽
+coach	全年龄	职业
+lekku (anatomy)	全年龄	星球大战种族的头尾
+hands on another's knees	全年龄	同 hand on another's knee
+blue rope	全年龄	绳子
+pink rope	全年龄	绳子
+sofmap background	全年龄	背景处理
+clothes on bed	全年龄	同 unworn clothes
+blackmail	全年龄	勒索，题材
+hands on another's leg	全年龄	同 hand on another's leg
+safety razor	全年龄	剃刀
+washing back	全年龄	搓背，洗澡一组
+nightclub	全年龄	场景
+light-skinned soles	全年龄	同 soles
+privacy screen	全年龄	屏风
+bar soap	全年龄	洗澡一组
+white facepaint	全年龄	妆容
+cross piercing	全年龄	穿环饰品
+print bridal gauntlets	全年龄	手套
+slipper bathtub	全年龄	同 bathtub
+trembling legs	全年龄	同 trembling
+hands on thighs	全年龄	同 hand on own thigh
+bruise on stomach	全年龄	伤
+back hair	全年龄	体毛
+against rock	全年龄	同 against wall
+body bridge	全年龄	姿势
+chloroform	全年龄	道具
+transparent seat	全年龄	透明座椅
+stable diffusion	全年龄	软件名
+tent interior	全年龄	场景
+cow print bridal gauntlets	全年龄	同 cow print gloves
+hoof shoes	全年龄	鞋
+slimy	全年龄	黏滑
+bearhug	全年龄	熊抱
+tail around arm	全年龄	尾巴
+tv show	全年龄	电视节目
+yuzu bath	全年龄	柚子浴，洗澡一组
+stable	全年龄	场景
+eyewear view	全年龄	视角
+body modification	全年龄	身体改造
+menstrual pad	全年龄	日用品
+red sheet	全年龄	同 bed sheet
+shiny pantyhose	全年龄	袜
+unworn apron	全年龄	同 unworn clothes
+held up	全年龄	被举起
+shampoo hat	全年龄	洗头帽，洗澡一组
+download link	全年龄	站务
+revenge	全年龄	复仇，题材
+body control	全年龄	身体操控，题材
+tentacles as hands	全年龄	身体异形
+umbilical cord	全年龄	脐带
+confessional	全年龄	场景
+between feet	全年龄	两脚之间夹着东西
+against desk	全年龄	同 against wall
+sticky	全年龄	黏糊糊
+arm around leg	全年龄	手臂环抱腿
+backbend	全年龄	姿势
+auction	全年龄	拍卖，题材
+cellulite	全年龄	身体特征
+evo grim	全年龄	枪械
+stretch marks	全年龄	妊娠纹，身体特征
+storage room	全年龄	场景
+wash cloth	全年龄	洗澡一组
+wooden bathtub	全年龄	同 bathtub
+unaware	全年龄	情绪
+lipstick mark on arm	全年龄	同 lipstick mark
+spoken www	全年龄	漫画符号
+trample	全年龄	踩踏
+interlocked venus symbols	全年龄	符号
+holding feet	全年龄	握脚
+stump cover	全年龄	残肢套，同 amputee
+taped arms	全年龄	手臂缠胶带
+against locker	全年龄	同 against wall
+puffy lips	全年龄	五官
+massage table	全年龄	按摩床
+bend	全年龄	弯曲
+spoken venus symbol	全年龄	漫画符号
+tanning oil	全年龄	助晒油
+misskey.io username	全年龄	站务
+tickling navel	全年龄	同 tickling
+ofuro	全年龄	同 bathtub
+boosty username	全年龄	站务
+tail removed	全年龄	尾巴
+legs grab	全年龄	同 leg grab
+kiss from behind	全年龄	同 kiss
+tentacle tongue	全年龄	舌头
+head arms	全年龄	身体异形
+lopunny (cosplay)	全年龄	角色 cosplay
+track marks	全年龄	针孔痕迹
+mucus	全年龄	黏液
+mirialan	全年龄	星球大战种族
+padded walls	全年龄	软包墙
+grabbing tentacle	全年龄	抓触手
+nectar	全年龄	花蜜
+furaffinity username	全年龄	站务
+guided hand on cheek	全年龄	拉着手放脸上
+in trunk	全年龄	在后备箱里
+nymph	全年龄	幻想生物
+fantia username	全年龄	站务
+hacking	全年龄	黑客
+foot hair	全年龄	体毛
+leaning on self	全年龄	姿势
+against bookshelf	全年龄	同 against wall
+mouth submerged	全年龄	水下
+tail around neck	全年龄	尾巴
+veiny belly	全年龄	同 veins
+grabbing another's horns	全年龄	同 horn grab
+gold lips	全年龄	妆容
+jackalope girl	全年龄	种族
+fake play button	全年龄	界面元素
+throat grab	全年龄	同 neck grab
+barbed tongue	全年龄	舌头
+condensed milk	全年龄	炼乳
+status bar	全年龄	界面元素
+frosted glass	全年龄	磨砂玻璃
+holding handlebar	全年龄	握车把
+electric toothbrush	全年龄	日用品
+green rope	全年龄	绳子
+star piercing	全年龄	穿环饰品
+neck hold	全年龄	同 neck grab
+poorly translated	全年龄	站务
+multiple tongues	全年龄	舌头
+grabbing another's ankles	全年龄	同 ankle grab
+yellow sponge	全年龄	海绵
+fantia logo	全年龄	站务
+scratching back	全年龄	挠背
+isbn	全年龄	文字
+vrchat (medium)	全年龄	软件名
+las plagas	全年龄	生化危机寄生虫
+thick back hair	全年龄	头发
+warts	全年龄	疣
+bowser logo	全年龄	符号
+shoulderstand	全年龄	姿势
+cigarette burn	全年龄	伤
+hoof gloves	全年龄	手套
+pull	全年龄	拉
+neck corset	全年龄	颈饰
+upward dog	全年龄	瑜伽
+pulque	全年龄	饮料
+groin attack	全年龄	格斗动作
+embroidered legwear	全年龄	袜
+lying on ball	全年龄	姿势
+absorbing	全年龄	吸收
+bidet	全年龄	同 toilet
+satin sheets	全年龄	同 bed sheet
+surfboard (wrestling)	全年龄	格斗动作
+elbow cuffs	全年龄	手饰
+chiss	全年龄	星球大战种族
+troll (warcraft)	全年龄	魔兽种族
+voodoo	全年龄	魔法道具
+tickling arms	全年龄	同 tickling
+slaanesh (symbol)	全年龄	战锤符号
+white freckles	全年龄	雀斑
+orange rope	全年龄	绳子
+daz studio (medium)	全年龄	软件名
+tampon	全年龄	日用品
+glowing tongue	全年龄	舌头
+youtube shorts	全年龄	界面元素
+licking own tail	全年龄	舔自己尾巴
+deuman	全年龄	梦幻之星种族
+torso only	全年龄	取景
+backscratcher	全年龄	痒痒挠
+internet cafe	全年龄	场景
+razor blade earrings	全年龄	耳饰
+bad multiple views	全年龄	瑕疵
+dolphin earrings	全年龄	耳饰
+shishio makoto (cosplay)	全年龄	角色 cosplay
+guided kiss	全年龄	同 kiss
+milking cow	全年龄	挤牛奶
+universal federation army uniform	全年龄	高达的军装
+zebesian	全年龄	银河战士生物
+skull and crossbones tattoo	全年龄	纹身
+interlocked toes	全年龄	脚
+mega lopunny (cosplay)	全年龄	角色 cosplay
+rubber duck hair ornament	全年龄	发饰
+tip jar	全年龄	小费罐
+wall cross-section	全年龄	墙体剖面，构图
+crest of flames	全年龄	符号
+unworn blouse	全年龄	同 unworn clothes
+foot on chest	全年龄	脚踩胸口
+nightborne	全年龄	魔兽种族
+kefir	全年龄	饮料
+amusphere	全年龄	刀剑神域的设备
+daemonette	全年龄	战锤种族
+avatar base	全年龄	成品形式
+bow eyepatch	全年龄	眼罩
+nose tube	全年龄	医疗
+training room	全年龄	场景
+no sex	全年龄	「不要 H」，否定说法（名字里的性词根误伤）
+# ---- 降成擦边，423 个，按作品数 ----
+between breasts	擦边	夹在胸间，同 head between breasts
+breasts apart	擦边	胸型描述
+covering privates	擦边	遮住私处：被遮住的裸体，同 covering crotch
+ass focus	擦边	同 ass
+steaming body	擦边	身上冒热气（热、出汗），同 very sweaty
+upskirt	擦边	裙底视角，同 pantyshot
+bouncing breasts	擦边	乳摇，身材强调
+breasts squeezed together	擦边	同 breast press
+saliva trail	擦边	唾液丝，多见于接吻，暧昧但不露骨
+hanging breasts	擦边	胸型描述
+french kiss	擦边	舌吻；kiss 是全年龄，这个更暧昧
+shared bathing	擦边	共浴，洗澡一组；多人同浴比单人更暧昧
+rolling eyes	擦边	翻白眼，定义里快感和不耐烦都有
+moaning	擦边	呻吟，定义里痛苦和快感都有
+naked towel	擦边	只裹浴巾，naked X 里裹着的那种（towel、sheet）是擦边
+deep skin	擦边	手指陷进皮肉，肉感强调
+necktie between breasts	擦边	同 between breasts
+same-sex bathing	擦边	同性共浴，同 shared bathing（NAI 藏）
+convenient hair	擦边	头发恰好遮挡：被遮住的裸体
+hair over breasts	擦边	头发遮胸：被遮住的裸体
+backboob	擦边	从背后看到乳房侧面，露背装常见，不露骨
+sagging breasts	擦边	胸型描述
+partially undressed	擦边	半脱衣，同 undressing
+mixed-sex bathing	擦边	混浴，同 shared bathing（NAI 藏）
+wedgie	擦边	内裤勒臀，同 butt crack（勒出阴部形状的 frontal wedgie、trefoil 跟 cameltoe 照旧 R18）
+grabbing another's thighs	擦边	摸别人大腿，同 hand on another's thigh
+hand under clothes	擦边	手伸进衣服
+thigh grab	擦边	同 hand on another's thigh
+unaligned breasts	擦边	胸部晃动方向，胸型描述
+unworn bra	擦边	同 unworn panties
+shortstack	擦边	成年女性矮而丰满，身材描述
+cheating (relationship)	擦边	出轨，恋爱题材，定义含恋爱
+lifting another's clothes	擦边	同 clothes lift
+perky breasts	擦边	胸型描述
+pulling another's clothes	擦边	同 pulling own clothes
+breasts on glass	擦边	同 against glass、breast press
+slap mark	擦边	掌印，多在臀部
+groin tendon	擦边	同 groin
+white male underwear	擦边	同 male underwear
+g-string	擦边	同 thong
+linked piercing	擦边	穿环饰品，同 barbell piercing
+mole on ass	擦边	部位是臀，同 ass
+torn leotard	擦边	同 torn bodysuit
+open pants	擦边	同 open shirt
+undressing another	擦边	同 undressing
+pole dancing	擦边	同 stripper pole
+untied panties	擦边	同 panties
+briefs	擦边	同 male underwear
+used tissue	擦边	定义：多暗示事后清理，也可能是生病
+micro panties	擦边	同 panties
+unworn bikini top	擦边	同 unworn panties
+hands on own ass	擦边	同 hand on own ass
+naked sheet	擦边	只裹床单，同 naked towel
+bouncing ass	擦边	同 ass
+aqua panties	擦边	同 panties
+convenient tail	擦边	尾巴恰好遮挡：被遮住的裸体
+black slingshot swimsuit	擦边	同 slingshot swimsuit
+shirt in mouth	擦边	同 clothes in mouth
+hands on another's thighs	擦边	同 hand on another's thigh
+breast expansion	擦边	胸部变大，身材变化
+ass cutout	擦边	情趣款式但不露骨
+hoodie lift	擦边	同 clothes lift
+leg between thighs	擦边	定义：多表示亲昵，也可能带摩擦
+ass shake	擦边	臀部动作，同 ass
+boxer briefs	擦边	同 male underwear
+white garter belt	擦边	同 garter belt
+unworn swimsuit	擦边	同 unworn panties
+pointy breasts	擦边	胸型描述
+ass support	擦边	托屁股（抱、背）
+orange panties	擦边	同 panties
+hand under shirt	擦边	同 hand under clothes
+open bodysuit	擦边	同 open shirt
+looking through own legs	擦边	弯腰从胯下看，姿势
+self wedgie	擦边	同 wedgie
+taimanin suit	擦边	紧身连体衣，同 latex
+red slingshot swimsuit	擦边	同 slingshot swimsuit
+torn bodystocking	擦边	同 torn bodysuit
+latex legwear	擦边	同 latex
+opened by self	擦边	同 open shirt
+tearing clothes	擦边	同 torn bodysuit
+camisole lift	擦边	同 clothes lift
+holding swimsuit	擦边	同 holding underwear
+plaid panties	擦边	同 panties
+wet towel	擦边	湿毛巾，同 naked towel 一组
+licking ear	擦边	同 licking
+unworn bikini	擦边	同 unworn panties
+licking another's neck	擦边	同 licking
+unworn bikini bottom	擦边	同 unworn panties
+bridal lingerie	擦边	同 lingerie
+between pectorals	擦边	同 between breasts
+jacket lift	擦边	同 clothes lift
+holding bra	擦边	同 holding underwear
+latex thighhighs	擦边	同 latex
+torn swimsuit	擦边	同 torn bodysuit
+hands on own breasts	擦边	同 breast hold
+bite mark on shoulder	擦边	同 bite mark
+pelvic curtain lift	擦边	同 clothes lift
+apron lift	擦边	同 clothes lift
+ass tattoo	擦边	部位是臀，同 ass
+satin panties	擦边	同 panties
+human furniture	擦边	把人当家具，调教题材但本身不露骨
+micro bra	擦边	同 pink bra
+red male underwear	擦边	同 male underwear
+pov breasts	擦边	部位视角，同 ass focus
+armpit hair peek	擦边	同 armpit hair
+strawberry panties	擦边	同 panties
+one-piece thong	擦边	同 thong
+bust cup	擦边	用胸夹住液体
+front-hook bra	擦边	同 pink bra
+male with breasts	擦边	身材描述
+head between thighs	擦边	头夹在别人大腿间
+adjusting panties	擦边	同 panties
+white slingshot swimsuit	擦边	同 slingshot swimsuit
+exploding clothes	擦边	同 wardrobe malfunction
+ass press	擦边	同 ass、breast press
+blue male underwear	擦边	同 male underwear
+vertical-striped panties	擦边	同 panties
+see-through bikini	擦边	透视泳装
+captive bead ring	擦边	穿环饰品，同 barbell piercing
+see-through one-piece swimsuit	擦边	透视泳装
+two-tone panties	擦边	同 panties
+puffy chest	擦边	男性胸部画得像女性，身材描述
+dissolving clothes	擦边	同 wardrobe malfunction
+mizu happi	擦边	暴露的祭典服，同 fundoshi
+torn bike shorts	擦边	同 torn bodysuit
+hair over one breast	擦边	同 hair over breasts
+tentacle grab	擦边	触手抓住，题材暧昧但本身不露骨
+implied incest	擦边	暗示乱伦（incest 是 R18）
+shorts tan	擦边	同 tanlines
+grey male underwear	擦边	同 male underwear
+front-print panties	擦边	同 panties
+natural wedgie	擦边	同 wedgie
+see-through bodysuit	擦边	透视连体衣
+heart panties	擦边	同 panties
+panties over garter belt	擦边	同 garter belt
+unfastened	擦边	同 open shirt
+yellow slingshot swimsuit	擦边	同 slingshot swimsuit
+latex boots	擦边	同 latex
+giving wedgie	擦边	同 wedgie
+ass freckles	擦边	部位是臀，同 ass
+vest lift	擦边	同 clothes lift
+bear panties	擦边	同 panties
+o-ring panties	擦边	同 panties
+tucked money	擦边	钱塞在内衣 / 衣服里（脱衣舞场景）
+against window	擦边	同 against glass
+wardrobe error	擦边	同 wardrobe malfunction
+backless panties	擦边	同 panties、ass cutout
+torn bikini	擦边	同 torn bodysuit
+love hotel	擦边	情人旅馆，场景暧昧
+x-ray vision	擦边	透视眼（看穿衣服），本身不露骨；剖面图 x-ray 照旧 R18
+ribbon between breasts	擦边	同 between breasts
+breast awe	擦边	对胸部惊叹
+open pajamas	擦边	同 open shirt
+food between breasts	擦边	同 between breasts
+view between legs	擦边	从两腿间看，视角
+babydoll lift	擦边	同 clothes lift
+washing another	擦边	给别人洗身体，洗澡一组里多人的那几个是擦边
+ribbon as bra	擦边	同 pink bra
+breasts on another's back	擦边	同 breast press
+linked collar	擦边	两人项圈相连
+pectoral docking	擦边	同 symmetrical docking
+blue slingshot swimsuit	擦边	同 slingshot swimsuit
+breasts on tray	擦边	胸放在托盘上，身材强调
+bite mark on thigh	擦边	同 bite mark
+undone bikini	擦边	同 untied bikini
+scar on breasts	擦边	同 mole on breast
+bike shorts pull	擦边	同 pulling own clothes
+covered piercing	擦边	隔着衣服看到穿环，同 covered nipples
+loose bikini	擦边	同 untied bikini
+belly-to-belly	擦边	腹贴腹，亲密接触
+undone sarashi	擦边	同 untied bikini
+green male underwear	擦边	同 male underwear
+held down	擦边	被按住
+fanning crotch	擦边	同 covering crotch
+ass on glass	擦边	同 against glass
+bursting ass	擦边	同 bursting breasts
+foot on another's face	擦边	脚踩别人脸，多见于足控
+person between breasts	擦边	同 between breasts
+lace-trimmed garter belt	擦边	同 garter belt
+lipstick mark on stomach	擦边	身上的唇印（手臂上的是全年龄，同 lipstick mark）
+t-back	擦边	同 thong
+bite mark on arm	擦边	同 bite mark
+oiled	擦边	身上涂油，同 very sweaty
+hand under skirt	擦边	同 hand under clothes
+piercing through clothes	擦边	同 covered piercing
+purple slingshot swimsuit	擦边	同 slingshot swimsuit
+head pinned down	擦边	头被按住，同 held down
+ass lift	擦边	同 ass
+lipstick mark on leg	擦边	同 lipstick mark on stomach
+bust measuring	擦边	量胸围
+daijoubu? oppai momu? (meme)	擦边	「要揉胸吗」的梗
+tramp stamp	擦边	腰部纹身
+sweater vest lift	擦边	同 clothes lift
+body jewelry	擦边	身体饰品，多戴在裸露处
+fishnet leotard	擦边	网眼紧身衣
+star panties	擦边	同 panties
+babydoll pull	擦边	同 clothes lift
+shirt rolled up	擦边	同 clothes lift
+between buttocks	擦边	夹在臀缝，同 butt crack
+hand in another's clothes	擦边	同 hand under clothes
+print male underwear	擦边	同 male underwear
+backwards virgin killer sweater	擦边	露背毛衣
+lace garter belt	擦边	同 garter belt
+hand in pants	擦边	同 hand under clothes
+bikini briefs	擦边	同 male underwear
+x-ray glasses	擦边	同 x-ray vision
+bra slip	擦边	同 strap slip
+purple garter belt	擦边	同 garter belt
+pear shaped figure	擦边	同 wide hips
+ruined for marriage	擦边	「嫁不出去了」，暗示被看光
+oppai mochi	擦边	同 breast press
+twerking	擦边	电臀舞
+cardigan lift	擦边	同 clothes lift
+bottle between breasts	擦边	同 between breasts
+skirt rolled up	擦边	同 clothes lift
+strap break	擦边	同 wardrobe malfunction
+gold slingshot swimsuit	擦边	同 slingshot swimsuit
+pectoral squeeze	擦边	同 breast press
+saliva trail between teeth	擦边	同 saliva trail
+slave brand	擦边	奴隶烙印
+unlikely accident	擦边	离谱意外（幸运色狼式），本身不露骨
+floating breasts	擦边	胸部浮在水上，身材强调
+panty tag	擦边	同 panties
+bodysuit pull	擦边	同 pulling own clothes
+yellow male underwear	擦边	同 male underwear
+red garter belt	擦边	同 garter belt
+panty tug	擦边	同 panties
+pantsing	擦边	扒裤子，同 undressing another
+shirt tan	擦边	同 tanlines
+holding another's thighs	擦边	同 hand on another's thigh
+shirt behind neck	擦边	衬衫拉到脑后，同 clothes lift
+hakama lift	擦边	同 clothes lift
+pants lift	擦边	同 clothes lift
+rabbit panties	擦边	同 panties
+lipstick mark on chest	擦边	同 lipstick mark on stomach
+pink slingshot swimsuit	擦边	同 slingshot swimsuit
+extra breasts	擦边	多余的乳房，身体异形
+cat panties	擦边	同 panties
+bouncing pecs	擦边	同 bouncing breasts
+biting shoulder	擦边	同 bite mark
+ass blush	擦边	同 body blush
+hand under shorts	擦边	同 hand under clothes
+pushing down	擦边	推倒，同 held down
+chain between breasts	擦边	同 between breasts
+latex panties	擦边	同 panties
+holding own breasts	擦边	同 breast hold
+head under another's clothes	擦边	头钻进别人衣服
+licking navel	擦边	同 licking
+shirt down	擦边	同 clothes down
+armpit stubble	擦边	同 armpit hair
+fixed-point camera	擦边	定点摄像，视角
+under shot	擦边	仰拍，视角
+impossible towel	擦边	毛巾贴身，同 naked towel 一组
+towel on legs	擦边	腿上盖毛巾，同 naked towel 一组
+swimsuit theft	擦边	偷泳装
+orange male underwear	擦边	同 male underwear
+safety pin piercing	擦边	同 barbell piercing
+hand in another's mouth	擦边	同 finger in another's mouth
+panty mask	擦边	内裤当面罩
+skin suit (stellar blade)	擦边	紧身连体衣，同 latex
+colored armpit hair	擦边	同 armpit hair
+dress in mouth	擦边	同 clothes in mouth
+tube top lift	擦边	同 clothes lift
+revealing tanlines	擦边	同 tanlines
+against mirror	擦边	同 against glass
+brown male underwear	擦边	同 male underwear
+kissing stomach	擦边	亲肚子
+alternate ass size	擦边	同 alternate breast size
+bra on head	擦边	同 holding underwear
+good boy (phrase)	擦边	台词，多用于调教但本身不露骨
+excessive armpit hair	擦边	同 armpit hair
+chocolate on legs	擦边	身上的食物
+felicia (darkstalkers) (cosplay)	擦边	角色 cosplay，服装暴露
+can between breasts	擦边	同 between breasts
+implied cheating (relationship)	擦边	同 cheating (relationship)
+leggings pull	擦边	同 pulling own clothes
+purple male underwear	擦边	同 male underwear
+swimsuit costume	擦边	泳装
+bite mark on leg	擦边	同 bite mark
+licking leg	擦边	同 licking
+pink male underwear	擦边	同 male underwear
+checkered panties	擦边	同 panties
+hand in bikini	擦边	同 hand under clothes
+green slingshot swimsuit	擦边	同 slingshot swimsuit
+unworn male underwear	擦边	同 male underwear
+pink garter belt	擦边	同 garter belt
+grabbing own pectoral	擦边	同 breast hold
+medical examination	擦边	体检
+foot blush	擦边	同 body blush
+latex top	擦边	同 latex
+latex bra	擦边	同 latex
+robe lift	擦边	同 clothes lift
+opening another's clothes	擦边	同 undressing
+zipper panties	擦边	同 panties
+nipples out of frame	擦边	乳头在画框外：暗示上身没穿但看不到，同 covered nipples（名字里的性词根误伤）
+hand in pantyhose	擦边	同 hand under clothes
+chocolate covered	擦边	身上的食物
+crop top lift	擦边	同 clothes lift
+strawberry bra	擦边	同 pink bra
+skirt in mouth	擦边	同 clothes in mouth
+shorts lift	擦边	同 clothes lift
+ecstasy	擦边	狂喜，同 moaning
+frilled garter belt	擦边	同 garter belt
+scar on ass	擦边	部位是臀，同 ass
+licking thigh	擦边	同 licking
+slapping breasts	擦边	胸部
+kissing thigh	擦边	同 kissing stomach
+claw bra	擦边	同 pink bra
+haigure pose	擦边	高叉姿势（蜡笔小新的梗），多配高叉泳装
+meltryllis (fate) (cosplay)	擦边	角色 cosplay，服装暴露
+bite mark on chest	擦边	同 bite mark
+hands on another's thigh	擦边	同 hand on another's thigh
+pillow bite	擦边	咬枕头
+unbuttoned dress	擦边	同 open dress
+shaving another	擦边	给别人剃毛
+mask bikini	擦边	同 micro bikini
+starfish bikini	擦边	同 micro bikini
+heart bra	擦边	同 pink bra
+mismatched armpit hair	擦边	同 armpit hair
+bite mark on stomach	擦边	同 bite mark
+azure (armor)	擦边	暴露的盔甲
+saliva pool	擦边	同 saliva trail
+panties around one finger	擦边	同 unworn panties
+writing on ass	擦边	同 body writing
+69 (meme)	擦边	数字 69 的梗，指体位但本身不露骨
+hand under dress	擦边	同 hand under clothes
+cutting clothes	擦边	同 torn bodysuit
+red thong	擦边	同 thong
+fishnet bra	擦边	同 pink bra
+heart bikini	擦边	同 micro bikini
+inconvenient ass	擦边	同 ass
+cross-laced panties	擦边	同 panties
+fishnet panties	擦边	同 panties
+gift between breasts	擦边	同 between breasts
+satin underwear	擦边	同 underwear
+chocolate on ass	擦边	身上的食物
+torn sports bra	擦边	同 torn bodysuit
+magia baiser (cosplay)	擦边	角色 cosplay，服装暴露
+revealing swimsuit (dq)	擦边	同 micro bikini
+draw me like one of your french girls (meme)	擦边	横躺摆姿势的梗，原图是裸体但本身不露骨
+american flag panties	擦边	同 panties
+excessive saliva	擦边	同 saliva trail
+panties around toe	擦边	同 unworn panties
+nightgown lift	擦边	同 clothes lift
+pajamas lift	擦边	同 clothes lift
+licking shoulder	擦边	同 licking
+panty dangle	擦边	同 unworn panties
+rokushaku fundoshi	擦边	同 fundoshi
+ass expansion	擦边	同 breast expansion
+bad ass	擦边	部位是臀，同 ass
+towel around breasts	擦边	同 naked towel 一组
+latex corset	擦边	同 latex
+overalls pull	擦边	同 pulling own clothes
+tabard lift	擦边	同 clothes lift
+bruise on ass	擦边	部位是臀，同 ass
+long breast curtain	擦边	胸前长布帘，侧面暴露
+skirt tied over head	擦边	恶作剧露出内裤，同 pantyshot
+frog panties	擦边	同 panties
+saliva bubble	擦边	同 saliva trail
+loose panties	擦边	同 panties
+soapy	擦边	满身肥皂泡，洗澡一组里比 soap bubbles 暧昧
+bite mark on back	擦边	同 bite mark
+biting ass	擦边	同 ass
+cherry panties	擦边	同 panties
+leaf panties	擦边	同 panties
+head between legs	擦边	同 head between thighs
+healer u (armor)	擦边	暴露的盔甲
+plaid male underwear	擦边	同 male underwear
+ass mousepad	擦边	同 ass
+wrap towel	擦边	同 naked towel 一组
+towel pull	擦边	同 pulling own clothes
+flower panties	擦边	同 panties
+photocopying self	擦边	复印自己（多是屁股）的梗
+chocolate on pectorals	擦边	身上的食物
+food on pectorals	擦边	身上的食物
+breast pile	擦边	同 breast press
+butt crush	擦边	同 ass
+face in armpit	擦边	脸埋腋下，同 armpit hair
+sailor fundoshi	擦边	同 fundoshi
+far side backboob	擦边	同 backboob
+layered panties	擦边	同 panties
+tongue suck	擦边	同 french kiss
+slapping with breasts	擦边	胸部
+breast band	擦边	同 pink bra
+igawa asagi (cosplay)	擦边	角色 cosplay，紧身服
+sheet bite	擦边	同 pillow bite
+hand in another's shirt	擦边	同 hand under clothes
+torn tabard	擦边	同 torn bodysuit
+ass zipper	擦边	同 ass cutout
+hanging wedgie	擦边	同 wedgie
+pink leotard (dq)	擦边	紧身衣
+impossible underwear	擦边	同 underwear
+breast implants	擦边	胸部
+weighing breasts	擦边	称胸部
+licking another's arm	擦边	同 licking
+torn sarashi	擦边	同 torn bodysuit
+fundoshi day	擦边	同 fundoshi
+breasts on thighs	擦边	同 breast press
+pectorals on glass	擦边	同 against glass
+licking another	擦边	同 licking
+fanning breasts	擦边	胸部
+open cleavage	擦边	同 cleavage
+untied swimsuit	擦边	同 untied bikini
+torn jumpsuit	擦边	同 torn bodysuit
+overalls removed	擦边	脱下外穿的，同 clothes down
+breast punch	擦边	胸部
+framed crotch	擦边	同 crotch seam
+licking own foot	擦边	同 licking
+paw panties	擦边	同 panties
+bouncing belly	擦边	同 bouncing breasts
+presenting pectorals	擦边	同 presenting armpit
+ecchuu fundoshi	擦边	同 fundoshi
+slingshot tan	擦边	同 tanlines
+hair over ass	擦边	同 hair over breasts
+tickling ass	擦边	同 tickling，部位是臀
+gyaru garter lingerie set	擦边	同 lingerie
+poking ass	擦边	部位是臀，同 ass
+towel lift	擦边	同 clothes lift
+divine bustier (dq)	擦边	同 pink bra
+torn unitard	擦边	同 torn bodysuit
+hakama removed	擦边	同 overalls removed
+framed pectorals	擦边	款式露胸肌
+igawa sakura (cosplay)	擦边	角色 cosplay，紧身服
+# ---- 升成 R18（全年龄 / 擦边里 NAI 藏的、词根规则），10 个，按作品数 ----
+sukebe isu	R18	色情店用的开口浴凳（不加这行会跟上位词 bath stool 变成全年龄）
+you gonna get raped	R18	台词，指涉性暴力
+naked sweater	R18	只穿毛衣，naked X 一组跟 naked apron 一样
+crotchless pants	R18	开裆裤，露出私处；同词根的 crotchless panties 是 R18
+penetration gesture	R18	插入手势，性手势，同 paizuri gesture
+rape face	R18	「强奸脸」，指涉性暴力
+uohhhhhhhhh! (meme)	R18	对着幼女角色兴奋的梗，涉及未成年
+cunnilingus gesture	R18	舔阴手势，性手势，同 paizuri gesture
+osugaki	R18	男版雌小鬼，涉及未成年，同 mesugaki
+pedophile	R18	恋童，涉及未成年，一律藏
+naked ascot	R18	只戴领巾，naked X 一组跟 naked apron 一样
+# ---- 升成 R18G，4 个，按作品数 ----
+cannibalism	R18G	食人，猎奇
+urine meter	R18G	尿量表，排泄，同 have to pee
+bedwetting	R18G	尿床，排泄，同 peeing
+yukkuri abuse	R18G	虐待油库里，猎奇
+# ---- 主位在 R18 原子上的拉回全年龄，87 个，按作品数（主位归属见 tree/overrides.tsv）----
+bound	全年龄	被绑住，同 hostage / prisoner、kidnapping（全年龄）
+restrained	全年龄	不能动，同 bound
+tentacles	全年龄	触手本身，同 tentacle girl / tentacles as hands（全年龄）
+leash	全年龄	牵绳，同 collar / holding leash / pet walking（全年龄）
+gag	全年龄	堵嘴的东西（布、胶带），人质常见；专门的 BDSM 口塞单列不动
+gagged	全年龄	嘴被堵住，同 gag
+bound wrists	全年龄	双手被绑，同 arms behind back / handcuffs
+bound arms	全年龄	同 bound wrists
+pregnant	全年龄	怀孕的肚子，同 belly / full stomach
+bound legs	全年龄	同 bound wrists
+torso grab	全年龄	抓别人躯干，普通肢体接触（同 grabbing another's arm）
+hypnosis	全年龄	催眠，同 mind control（全年龄）
+improvised gag	全年龄	临时口塞，同 gag
+big belly	全年龄	大肚子（吃撑、胖、怀孕），同 belly
+red rope	全年龄	绳子，同 blue rope / pink rope
+chain leash	全年龄	同 leash
+bound ankles	全年龄	同 bound legs
+arm held back	全年龄	手臂被别人往后拉，Danbooru 归 grabbing another's arm（全年龄）
+caught	全年龄	被撞见做尴尬的事（Danbooru：性或非性都算）
+lotion	全年龄	乳液，同 soap（洗澡一组）
+chained	全年龄	被锁链绑住，同 chain（全年龄）
+cloth gag	全年龄	布口塞，同 gag
+tape gag	全年龄	胶带封嘴，同 gag
+walk-in	全年龄	闯进别人的私密场合，同 caught
+asphyxiation	全年龄	不能呼吸（噎住、溺水、被掐），同 strangling
+through wall	全年龄	半个身子在墙里（幽灵穿墙、卡住），同 stuck
+lotion bottle	全年龄	同 lotion
+cleave gag	全年龄	勒在齿间的布，同 cloth gag
+leash pull	全年龄	拉牵绳（Danbooru：BDSM 或遛狗都算），同 holding leash
+bound torso	全年龄	上身被绑，同 bound
+captured	全年龄	被俘，同 prisoner
+bound together	全年龄	几个人绑在一起，同 bound
+chained wrists	全年龄	同 shackles
+hypnosis app	全年龄	手机上的催眠画面，同 hypnosis
+bound thighs	全年龄	同 bound legs
+unworn gag	全年龄	同 gag
+immobilization	全年龄	完全动不了，同 restrained
+implied pregnancy	全年龄	验孕棒、孕吐，同 pregnancy test（全年龄）
+spasm	全年龄	身上冒出的尖刺线表示吓一跳 / 激动，同 trembling / ^^^
+over the mouth gag	全年龄	同 cloth gag
+tied to chair	全年龄	绑在椅子上，同 bound
+kidnapped	全年龄	被绑架，同 kidnapping
+cuffed	全年龄	戴手铐，同 handcuffs
+over the nose gag	全年龄	同 cloth gag
+bound toes	全年龄	同 bound legs
+arms bound apart	全年龄	同 bound wrists
+gag around neck	全年龄	同 gag
+cat o' nine tails	全年龄	九尾鞭（刑具 / 船上的鞭子），同 whip / riding crop
+ungagged	全年龄	同 gag
+bound knees	全年龄	同 bound legs
+necktie around wrists	全年龄	用领带绑手腕，同 bound wrists
+encasement	全年龄	被包住动不了（冰、黏液……），同 restrained
+restraints	全年龄	束缚用具的总称，同 handcuffs / shackles
+stepping on viewer	全年龄	踩向镜头，同 stepped on（全年龄）
+behind bars	全年龄	在铁栏后，同 iron bars / in cage
+hand gagged	全年龄	被手捂嘴，同 covering another's mouth
+applying gag	全年龄	同 gag
+bound feet	全年龄	同 bound legs
+in cell	全年龄	在牢房里，同 prison cell
+rope gag	全年龄	同 cloth gag
+bound leg	全年龄	同 bound legs
+black rope	全年龄	绳子，同 blue rope / pink rope
+chained legs	全年龄	同 shackles
+knot gag	全年龄	打结的布，同 cloth gag
+rectangular cage	全年龄	方形笼子，同 cage
+implied hetero	全年龄	提到有异性恋人但没画出来，同 implied yuri
+massaging device	全年龄	按摩器（按摩枪、头皮按摩器……）；按摩棒 hitachi magic wand 单独一个词，照旧 R18
+tied to stake	全年龄	绑在火刑柱上，同 bound
+arms bound above head	全年龄	同 bound wrists
+bound fingers	全年龄	同 bound wrists
+choking on object	全年龄	被东西（多是食物）噎住，同 asphyxiation；按原子会挂到束缚调教、变成 R18
+covenant halo (girls' frontline 2)	全年龄	少女前线 2 结婚后手背上的光环，同 wedding ring
+multiple pregnancy	全年龄	同 pregnant
+wrists bound apart	全年龄	同 bound wrists
+dog lead	全年龄	狗绳，同 leash
+implied stepping	全年龄	脚在画外踩着东西，同 stepping
+black leash	全年龄	同 leash
+bound thumbs	全年龄	同 bound wrists
+pink leash	全年龄	同 leash
+chain pull	全年龄	拉锁链（多是项链），同 pull
+bound calves	全年龄	同 bound legs
+removing gag	全年龄	同 gag
+redaction	全年龄	文件里的涂黑，同 censored text
+head cage	全年龄	戴在头上的笼子（多是血源的 mensis cage）
+feigning hypnosis	全年龄	同 hypnosis
+nervous system	全年龄	神经系统图，同 anatomy
+broken hypnosis	全年龄	同 hypnosis
+# ---- 主位在 R18 原子上的降成擦边，52 个，按作品数（主位归属见 tree/overrides.tsv）----
+shirt lift	擦边	同 clothes lift
+skirt lift	擦边	同 clothes lift
+underwear only	擦边	只穿内衣，同 underwear
+naughty face	擦边	坏笑「我知道你被撩到了」，同 seductive smile
+pants pull	擦边	同 pulling own clothes / leggings pull
+pantyhose pull	擦边	同 pants pull
+skirt pull	擦边	同 pants pull
+sweater lift	擦边	同 clothes lift
+shorts pull	擦边	同 pants pull
+convenient leg	擦边	腿恰好挡住，被遮住的裸体
+untied bikini top	擦边	同 untied bikini
+dress pull	擦边	同 pulling own clothes / one-piece swimsuit pull
+food on body	擦边	同 food on pectorals / chocolate covered（擦边）
+spanked	擦边	屁股上的掌印，同 slap mark（擦边）
+instant loss	擦边	嚣张角色秒败的两格梗（多是性场景，也有非性的）
+untied bikini bottom	擦边	同 untied bikini
+chocolate on body	擦边	同 food on body
+viewer holding leash	擦边	观众牵着角色：人被牵着，暧昧
+pectoral grab	擦边	抓胸肌，同 grabbing own pectoral
+kimono pull	擦边	同 dress pull
+morning after	擦边	过夜后的早晨（同床或通宵），暗示但不画
+jockstrap	擦边	男士护裆内裤，同 male underwear
+kimono lift	擦边	同 clothes lift
+strapless bottom	擦边	同 c-string
+viewer on leash	擦边	同 viewer holding leash
+see-through babydoll	擦边	同 babydoll
+bed invitation	擦边	拍拍床邀人进被窝，同 come hither
+c-string	擦边	没有带子的丁字裤，同 thong
+cream on body	擦边	同 food on body
+hand shadow covering breasts (meme)	擦边	手影挡胸的梗，被遮住的裸体
+head on ass	擦边	头靠在别人屁股上，暧昧接触
+tentacle clothes	擦边	长出触手 / 触手做的衣服，同 tentacle grab（擦边）
+top pull	擦边	同 dress pull
+pajamas pull	擦边	同 pants pull
+licking stomach	擦边	同 licking
+clothed male underwear female	擦边	穿衣男 + 只穿内衣的女，同 underwear only
+clothes-dissolving potion	擦边	芙莉莲里的溶衣药水，同 dissolving clothes（擦边）
+can't show this (meme)	擦边	「見せられないよ！」牌子挡住，被遮住的裸体
+convenient hand	擦边	手恰好挡住，被遮住的裸体
+leash in mouth	擦边	叼着自己的牵绳，同 viewer holding leash
+offering leash	擦边	把自己的牵绳递出去，同 viewer holding leash
+hakama pull	擦边	同 pants pull
+bubble filter	擦边	衣服上盖圆点让人看起来像没穿，其实穿着
+towel slip	擦边	裹着的浴巾滑落，同 naked towel 一组
+bow babydoll	擦边	同 babydoll
+yellow babydoll	擦边	同 babydoll
+fuzzy handcuffs	擦边	毛绒手铐，玩闹性质，handcuffs 是全年龄
+yukata lift	擦边	同 clothes lift
+licking back	擦边	同 licking
+like an ero-doujin	擦边	「エロ同人みたいに」台词梗，出处本身不是色情本
+ass clap	擦边	甩屁股（几乎都是动图），同 ass shake
+imminent licking	擦边	同 licking
+# ---- 已弃用的旧词，按同一套标准判 ----
+#   已弃用的统称（hand on thigh、hands on ass、oil）取它拆出来的新写法里最高的档；已弃用的词 2022-06 以后的图少，擦边（看新图 s ≥60%）判不出来，同族的新写法是擦边的跟着改
+hand on thigh	擦边	已弃用的统称：新写法 hand on own thigh 全年龄、hand on another's thigh 擦边，取高的
+hands on ass	R18	已弃用的统称：新写法 hands on own ass 擦边、hands on another's ass R18（审过照旧），取高的；档没变，写下来是定论
+male hand	全年龄	男性的手，中性的身体部位，同 hands、disembodied hand
+toe-point	全年龄	绷 / 点脚尖，脚的姿势，同 tiptoes、toe scrunch
+oil	擦边	已弃用的统称：抹在身上的 oiled 擦边，油画、油灯、助晒油全年龄，取高的
+disembodied limb	全年龄	脱离身体的肢体，新写法 disembodied hand / arm / head / eye 都是全年龄（主位一起挪了，见 tree/overrides.tsv）
+disembodied foot	全年龄	同 disembodied hand（原来第二个位置挂了猎奇，见 tree/overrides.tsv）
+frilled swimsuit	擦边	已弃用，新写法 frilled bikini / frilled one-piece swimsuit 擦边
+side-tie bikini	擦边	已弃用，新写法 side-tie bikini bottom 擦边
+front-tie bikini	擦边	已弃用，新写法 front-tie bikini top 擦边
+blue swimsuit	擦边	已弃用，新写法 blue bikini / blue one-piece swimsuit 擦边
+alternate color school swimsuit	擦边	已弃用，同 school swimsuit、nontraditional school swimsuit
+white swimsuit	擦边	已弃用，新写法 white bikini / white one-piece swimsuit 擦边
+metallic bikini	擦边	已弃用，同 metal bikini、silver bikini
+yellow swimsuit	擦边	已弃用，新写法 yellow bikini / yellow one-piece swimsuit 擦边
+ribbon bra	擦边	已弃用，新写法 ribbon as bra 擦边
+hair bra	擦边	已弃用，头发挡住胸，同 hair over breasts
+string bikini briefs	擦边	已弃用，同 bikini briefs、string panties
+string bikini panties	擦边	已弃用，同 string panties
+innerboob	擦边	已弃用，同 underboob、sideboob

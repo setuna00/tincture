@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Playwright
+e2e/shots/*
+!e2e/shots/_readme.mjs
+test-results
+playwright-report
+dist-preview
+
+# 原始数据（下载的，不进 git）
+data/raw
+
+# 发布包（npm run release：Electron 便携版）
+/release/
+
+# local launcher script (not part of the app)
+启动.bat

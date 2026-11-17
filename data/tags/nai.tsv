@@ -1,0 +1,104 @@
+# NAI 自己认、但 Danbooru 名单里没有的词：NAI 特殊词（质量 / 美学 / 复杂度 / 数据集 / 角色框的 girl boy other），
+# 和 NAI 补全里查得到的旧名（用 suggest-tags 核对）。列：英文 中文 类别 分组 作品数（估计值，只用来排序）
+# has alpha、attractive male、visual novel art / bg / chibi（NAI 文档里的特殊词，src/lib/nai.ts 的 NAI_SPECIAL_TAGS；作品数是 NAI 补全给的）、masterpiece（V5 Standard 质量预设里有，Danbooru 已弃用）、rating:*（V5 官方示例 prompt 里有）、NAI 补全认的 year 词（1960、1963、1968–1975、1979–2026；作品数用 NAI 补全给的数，封顶 10000；封顶的按年份加一点，补全时新的年份排前面）
+# girl、boy（NAI 角色框预填的词）、text——Danbooru 已弃用（作品数 0）；作品数和 other 同一档的估计值
+other	其他（角色框）	general	人数	2140188
+girl	女孩（角色框）	general	人数	2140188
+boy	男孩（角色框）	general	人数	2140188
+text	文字	general	文字	2140188
+best quality	最佳质量	meta	质量	1773525
+amazing quality	惊人质量	meta	质量	1549682
+great quality	优秀质量	meta	质量	1422608
+normal quality	普通质量	meta	质量	1267795
+bad quality	低质量	meta	质量	1174907
+worst quality	最差质量	meta	质量	1037081
+very aesthetic	非常美观	meta	质量	924222
+aesthetic	美观	meta	质量	872978
+top aesthetic	顶级美观	meta	质量	756032
+displeasing	不美观	meta	质量	693771
+very displeasing	非常不美观	meta	质量	594375
+low complexity	低复杂度	meta	质量	545744
+medium complexity	中复杂度	meta	质量	476580
+hand on hip	单手叉腰	general	姿势动作	440590
+high complexity	高复杂度	meta	质量	437676
+ultra complexity	极高复杂度	meta	质量	389969
+no text	无文字	meta	质量	382879
+depthness	纵深感	meta	质量	338210
+peace sign	剪刀手	general	姿势动作	291851
+visual novel sprite	视觉小说立绘	meta	质量	248106
+fur dataset	兽人数据集	meta	质量	241903
+background dataset	背景数据集	meta	质量	203059
+location	场景	meta	质量	201594
+error	错误	general	UC 常用	194862
+hands on hips	双手叉腰	general	姿势动作	167411
+double peace	双手剪刀手	general	姿势动作	34806
+nsfw	不适合公开（NSFW）	general	UC 常用	0
+screentone	网点	general	UC 常用	0
+masterpiece	杰作	meta	质量	1800000
+rating:general	分级：一般	meta	质量	500000
+rating:sensitive	分级：敏感	meta	质量	300000
+rating:questionable	分级：可疑	meta	质量	100000
+rating:explicit	分级：露骨	meta	质量	100000
+year 1960	1960 年	meta	质量	736
+year 1963	1963 年	meta	质量	248
+year 1968	1968 年	meta	质量	1000
+year 1969	1969 年	meta	质量	1560
+year 1970	1970 年	meta	质量	9991
+year 1971	1971 年	meta	质量	6292
+year 1972	1972 年	meta	质量	9993
+year 1973	1973 年	meta	质量	5652
+year 1974	1974 年	meta	质量	9724
+year 1975	1975 年	meta	质量	7140
+year 1979	1979 年	meta	质量	7276
+year 1980	1980 年	meta	质量	10001
+year 1981	1981 年	meta	质量	10002
+year 1982	1982 年	meta	质量	10003
+year 1983	1983 年	meta	质量	10004
+year 1984	1984 年	meta	质量	10005
+year 1985	1985 年	meta	质量	10006
+year 1986	1986 年	meta	质量	10007
+year 1987	1987 年	meta	质量	10008
+year 1988	1988 年	meta	质量	10009
+year 1989	1989 年	meta	质量	10010
+year 1990	1990 年	meta	质量	10011
+year 1991	1991 年	meta	质量	10012
+year 1992	1992 年	meta	质量	10013
+year 1993	1993 年	meta	质量	10014
+year 1994	1994 年	meta	质量	10015
+year 1995	1995 年	meta	质量	10016
+year 1996	1996 年	meta	质量	10017
+year 1997	1997 年	meta	质量	10018
+year 1998	1998 年	meta	质量	10019
+year 1999	1999 年	meta	质量	10020
+year 2000	2000 年	meta	质量	10021
+year 2001	2001 年	meta	质量	10022
+year 2002	2002 年	meta	质量	10023
+year 2003	2003 年	meta	质量	10024
+year 2004	2004 年	meta	质量	10025
+year 2005	2005 年	meta	质量	10026
+year 2006	2006 年	meta	质量	10027
+year 2007	2007 年	meta	质量	10028
+year 2008	2008 年	meta	质量	10029
+year 2009	2009 年	meta	质量	10030
+year 2010	2010 年	meta	质量	10031
+year 2011	2011 年	meta	质量	10032
+year 2012	2012 年	meta	质量	10033
+year 2013	2013 年	meta	质量	10034
+year 2014	2014 年	meta	质量	10035
+year 2015	2015 年	meta	质量	10036
+year 2016	2016 年	meta	质量	10037
+year 2017	2017 年	meta	质量	10038
+year 2018	2018 年	meta	质量	10039
+year 2019	2019 年	meta	质量	10040
+year 2020	2020 年	meta	质量	10041
+year 2021	2021 年	meta	质量	10042
+year 2022	2022 年	meta	质量	10043
+year 2023	2023 年	meta	质量	10044
+year 2024	2024 年	meta	质量	10045
+year 2025	2025 年	meta	质量	10046
+year 2026	2026 年	meta	质量	10047
+has alpha	带透明通道	meta	质量	10000
+attractive male	好看的男性	general	质量	5668
+visual novel art	视觉小说美术	meta	质量	10000
+visual novel bg	视觉小说背景	meta	质量	10000
+visual novel chibi	视觉小说 Q 版	meta	质量	10000

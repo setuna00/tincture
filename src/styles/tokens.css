@@ -1,0 +1,158 @@
+:root {
+  --font-ui: "IBM Plex Sans Variable", "IBM Plex Sans", "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  --font-code: "IBM Plex Mono", "JetBrains Mono", "Cascadia Mono", Consolas, "Microsoft YaHei UI", monospace;
+  --fs-ui: 13px;
+  --fs-small: 12px;
+  --fs-label: 11px;
+  --tracking-label: 0.08em;
+
+  --hue-artist: 18;
+  --hue-text: 275;
+  --hue-neg: 205;
+  --hue-uc: 12;
+  --hue-base: 275;
+  --hue-accent: 92;
+  --hue-female: 355;
+  --hue-male: 245;
+  --hue-nsfw: 305;
+
+  --chip-h: 24px;
+  --chip-px: 7px;
+  --chip-radius: 6px;
+  --chip-fs: 13px;
+  --chip-gap-x: 5px;
+  --chip-gap-y: 6px;
+  --chip-border-w: 1px;
+
+  --wseg-k: 0.42;
+  --wseg-fade: 0.8;
+  --wseg-minw: 2.2em;
+
+  --hover-x-size: 15px;
+
+  --section-radius: 8px;
+  --section-px: 10px;
+  --section-py: 8px;
+  --section-gap: 8px;
+  --box-gap: 20px;
+  --section-chroma: 0.13;
+
+  --assist-w: 296px;
+  --artist-detail-w: 400px;
+  --lib-tree-w: 248px;
+  --gallery-detail-w: 400px;
+  --lib-detail-w: 320px;
+  --discover-cart-w: 264px;
+  --rail-w: 48px;
+  --editor-max-w: 920px;
+
+  --dur-fast: 90ms;
+  --dur: 160ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --shell: oklch(0.955 0.006 var(--hue-base));
+  --work: oklch(1 0 0);
+  --tab-hover: var(--surface-2);
+  --tab-card-shadow: 0 0 0 1px oklch(0.32 0.03 var(--hue-base) / 0.13), 0 1px 2px oklch(0.32 0.03 var(--hue-base) / 0.12);
+  --rail: oklch(0.27 0.02 var(--hue-base));
+  --rail-hover: oklch(0.35 0.02 var(--hue-base));
+  --rail-ink-1: oklch(0.96 0.006 var(--hue-base));
+  --rail-ink-2: oklch(0.76 0.014 var(--hue-base));
+  --surface-2: oklch(0.938 0.007 var(--hue-base));
+  --surface-3: oklch(1 0 0);
+  --line: oklch(0.32 0.03 var(--hue-base) / 0.11);
+  --line-strong: oklch(0.32 0.03 var(--hue-base) / 0.2);
+  --ink-1: oklch(0.23 0.02 var(--hue-base));
+  --ink-2: oklch(0.43 0.02 var(--hue-base));
+  --ink-3: oklch(0.52 0.018 var(--hue-base));
+  --accent: oklch(0.85 0.13 var(--hue-accent));
+  --accent-ink: oklch(0.25 0.04 var(--hue-accent));
+  --accent-text: oklch(0.52 0.11 calc(var(--hue-accent) - 22));
+  --price: var(--accent-ink);
+  --price-bg: var(--accent);
+  --price-text: oklch(0.55 0.13 75);
+  --price-on: oklch(0.94 0.08 95);
+  --price-on-bg: oklch(0.24 0.03 275);
+  --fav: oklch(0.8 0.16 78);
+  --danger: oklch(0.56 0.2 25);
+  --warn: oklch(0.66 0.15 82);
+  --gender-female: oklch(0.6 0.15 var(--hue-female));
+  --gender-male: oklch(0.58 0.14 var(--hue-male));
+  --gender-other: var(--ink-3);
+  --nsfw-ink: oklch(0.55 0.17 var(--hue-nsfw));
+  --shadow-pop: 0 6px 24px -6px oklch(0.2 0.03 var(--hue-base) / 0.22), 0 1px 3px oklch(0.2 0.03 var(--hue-base) / 0.12);
+  --section-line: oklch(0.32 0.03 var(--hue-base) / 0.27);
+  --section-shadow: 0 1px 2px oklch(0.2 0.03 var(--hue-base) / 0.06), 0 2px 8px -2px oklch(0.2 0.03 var(--hue-base) / 0.11);
+  --preset-bg: var(--surface-2);
+  --preset-line: var(--line-strong);
+  --preset-chip-line: var(--line-strong);
+  --preset-title: var(--ink-2);
+  --preset-mark: var(--ink-3);
+  --shadow-card: 0 1px 2px oklch(0.2 0.03 var(--hue-base) / 0.07), 0 2px 8px -2px oklch(0.2 0.03 var(--hue-base) / 0.08);
+  --overlay: oklch(0.2 0.02 var(--hue-base) / 0.42);
+
+  --chip-fg-l: 0.44;
+  --chip-fg-c: 0.15;
+  --chip-bg-l: 0.72;
+  --chip-bg-c: 0.12;
+  --chip-bg-a: 0.17;
+  --chip-bd-a: 0.36;
+  --chip-prefix-a: 0.9;
+  --section-tint-l: 0.55;
+}
+
+@media (max-width: 1199px) {
+  :root {
+    --lib-tree-w: 208px;
+    --lib-detail-w: 272px;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+  --shell: oklch(0.142 0.015 var(--hue-base));
+  --work: oklch(0.198 0.018 var(--hue-base));
+  --tab-hover: oklch(0.172 0.016 var(--hue-base));
+  --tab-card-shadow: 0 0 0 1px oklch(0.86 0.03 var(--hue-base) / 0.10), 0 1px 3px oklch(0 0 0 / 0.45);
+  --rail: oklch(0.09 0.012 var(--hue-base));
+  --rail-hover: oklch(0.17 0.012 var(--hue-base));
+  --rail-ink-1: oklch(0.96 0.006 var(--hue-base));
+  --rail-ink-2: oklch(0.76 0.014 var(--hue-base));
+  --surface-2: oklch(0.232 0.02 var(--hue-base));
+  --surface-3: oklch(0.262 0.022 var(--hue-base));
+  --line: oklch(0.86 0.03 var(--hue-base) / 0.085);
+  --line-strong: oklch(0.86 0.03 var(--hue-base) / 0.16);
+  --ink-1: oklch(0.94 0.008 var(--hue-base));
+  --ink-2: oklch(0.75 0.016 var(--hue-base));
+  --ink-3: oklch(0.65 0.02 var(--hue-base));
+  --accent: oklch(0.87 0.12 var(--hue-accent));
+  --accent-ink: oklch(0.2 0.03 var(--hue-accent));
+  --accent-text: oklch(0.87 0.12 var(--hue-accent));
+  --price: var(--accent-text);
+  --price-bg: oklch(0.87 0.12 var(--hue-accent) / 0.13);
+  --price-text: var(--accent-text);
+  --danger: oklch(0.7 0.18 25);
+  --warn: oklch(0.83 0.15 88);
+  --gender-female: oklch(0.76 0.13 var(--hue-female));
+  --gender-male: oklch(0.76 0.12 var(--hue-male));
+  --nsfw-ink: oklch(0.76 0.13 var(--hue-nsfw));
+  --shadow-pop: 0 10px 30px -8px oklch(0 0 0 / 0.6), 0 1px 2px oklch(0 0 0 / 0.4);
+  --shadow-card: 0 1px 2px oklch(0 0 0 / 0.35);
+  --section-line: oklch(0.86 0.03 var(--hue-base) / 0.24);
+  --section-shadow: 0 1px 3px oklch(0 0 0 / 0.5), inset 0 1px 0 oklch(1 0 0 / 0.04);
+  --preset-bg: color-mix(in oklab, var(--ink-1) 10%, var(--work));
+  --preset-line: color-mix(in oklab, var(--ink-1) 30%, transparent);
+  --preset-chip-line: color-mix(in oklab, var(--ink-1) 18%, transparent);
+  --preset-title: var(--ink-1);
+  --preset-mark: var(--ink-2);
+  --overlay: oklch(0 0 0 / 0.55);
+
+  --chip-fg-l: 0.85;
+  --chip-fg-c: 0.11;
+  --chip-bg-l: 0.56;
+  --chip-bg-c: 0.13;
+  --chip-bg-a: 0.17;
+  --chip-bd-a: 0.3;
+  --chip-prefix-a: 0.7;
+  --section-tint-l: 0.76;
+}

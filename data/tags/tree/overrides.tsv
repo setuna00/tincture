@@ -1,0 +1,758 @@
+# 手工指定的原子（最先生效）。列：tag（NAI 写法）	原子（逗号分隔，第一个是主位）
+tag	原子
+breasts	胸
+nipples	胸, 性征
+areolae	性征
+pectorals	胸
+armpits	手臂
+back	颈肩背
+collarbone	颈肩背
+neck	颈肩背
+bare shoulders	颈肩背
+ribs	腰腹
+navel	腰腹
+stomach	腰腹
+midriff	腰腹
+abs	腰腹
+ass	臀胯
+groin	臀胯
+wide hips	臀胯
+thighs	腿
+thick thighs	腿
+legs	腿
+bare legs	腿
+knees	腿
+feet	脚
+toes	脚
+barefoot	脚
+bare arms	手臂
+hands	手
+fingernails	手
+tail	尾巴
+pubic hair	性征
+pussy	性征
+penis	性征
+testicles	性征
+anus	性征
+highres	质量美学
+absurdres	质量美学
+incredibly absurdres	质量美学
+masterpiece	质量美学
+lowres	瑕疵
+comic	多格版式
+1koma	多格版式
+2koma	多格版式
+3koma	多格版式
+4koma	多格版式
+multiple 4koma	多格版式
+multiple views	多格版式
+collage	多格版式
+3d	数字与软件
+lineart	线条
+no lineart	线条
+outline	线条
+sketch	线条
+hatching (texture)	线条
+crosshatching	线条
+linear hatching	线条
+border	成品形式
+reference sheet	成品形式
+letterboxed	成品形式
+pillarboxed	成品形式
+pov	视角
+glitch	画面效果
+no humans	人数
+everyone	人数
+scenery	构图手法
+landscape	构图手法
+cityscape	城市街道
+gradient	上色
+backlighting	光向
+sidelighting	光向
+underlighting	光向
+high contrast	色调
+silhouette	构图手法
+depth of field	透视景深
+foreshortening	透视景深
+chiaroscuro	明暗
+caustics	光效
+lens flare	光效
+ink wash painting	媒介
+cyberpunk	世界观题材, 美学风格
+steampunk	世界观题材, 美学风格
+dieselpunk	世界观题材, 美学风格
+solarpunk	世界观题材, 美学风格
+biopunk	世界观题材, 美学风格
+indoors	室内室外
+outdoors	室内室外
+bedroom	居家
+kitchen	居家
+bathroom	居家
+living room	居家
+bathtub	居家
+dining room	居家
+classroom	学校
+school	学校
+hallway	学校
+clubroom	学校
+locker room	学校
+school gym	学校
+infirmary	学校
+sky	天空宇宙
+cloud	天空宇宙
+space	天空宇宙
+ocean	水与水下
+beach	自然
+day	时间
+night	时间
+sunset	时间
+twilight	时间
+evening	时间
+dawn	时间
+rain	天气
+snow	天气
+fog	天气
+wind	天气
+cloudy sky	天空宇宙, 天气
+rainbow	天气
+maid	身份职业
+holding	拿着
+wet	汗与体液
+blood	伤与包扎
+sweat	汗与体液
+tears	脸红泪水
+blush	脸红泪水
+smile	笑
+china dress	传统民族
+qipao	传统民族
+wedding dress	连衣裙
+nude	裸露
+lingerie	内衣（上）, 情趣服装
+heart-shaped pupils	眼型瞳孔, 表现手法
+spread legs	腿部姿势
+ass focus	焦点
+breast focus	焦点
+1girl	人数
+1boy	人数
+1other	人数
+solo	人数
+other	人数
+open mouth	嘴型
+closed mouth	嘴型
+parted lips	嘴型
+:o	嘴型
+:3	嘴型
+:p	嘴型
+:q	嘴型
+:<	嘴型
+:t	嘴型
+wavy mouth	嘴型
+teeth	嘴型
+fang	嘴型
+fangs	嘴型
+skin fang	嘴型
+tongue out	嘴型
+pout	嘴型
+biting own lip	嘴型
+mouth hold	嘴型
+profile	视角
+facing viewer	视角
+eyelashes	头面
+lips	头面
+thick eyebrows	头面
+eyes visible through hair	刘海前发
+one eye covered	面具眼罩
+tsurime	眼型瞳孔
+tareme	眼型瞳孔
+facial mark	痣疤纹身
+freckles	痣疤纹身
+makeup	妆容
+eyeshadow	妆容
+nail polish	妆容
+gyaru	服装风格
+water	水与水下
+tree	植物
+window	家具家居
+fire	元素特效
+moon	天空宇宙
+full moon	天空宇宙
+star (sky)	天空宇宙
+starry sky	天空宇宙
+field	自然
+flower field	自然
+clock	日用杂物
+architecture	建筑名胜
+building	建筑名胜
+fantasy	世界观题材
+science fiction	世界观题材
+post-apocalypse	世界观题材
+military	世界观题材
+sheath	冷兵器
+sheathed	冷兵器
+pouch	包与随身
+rigging	机甲科技
+glowing	光效
+electricity	元素特效
+smoke	元素特效
+smoking	日常动作
+cooking	日常动作
+crying	脸红泪水
+tearing up	脸红泪水
+kiss	两人互动
+trembling	情绪
+v	手势
+peace sign	手势
+double v	手势
+hand up	手臂姿势
+hands up	手臂姿势
+hand on hip	手的位置
+hands on hips	手的位置
+groping	两人互动
+grabbing another's breast	两人互动
+yuri	关系
+yaoi	关系
+hetero	关系
+couple	关系
+loli	年龄
+shota	年龄
+child	年龄
+aged down	年龄
+aged up	年龄
+mature female	年龄
+mature male	年龄
+old	年龄
+old man	年龄
+old woman	年龄
+toddler	年龄
+teenage	年龄
+muscular	体型
+muscular male	体型
+muscular female	体型
+toned	体型
+toned male	体型
+curvy	体型
+plump	体型
+fat	体型
+skinny	体型
+petite	体型
+tall	体型
+tall female	体型
+height difference	体型
+size difference	体型
+furry	种族
+furry female	种族
+furry male	种族
+elf	种族
+dark elf	种族
+oni	种族
+vampire	种族
+angel	种族
+mermaid	种族
+fairy	种族
+android	种族
+robot	种族
+magical girl	身份职业
+virtual youtuber	身份职业
+saliva	汗与体液
+breath	汗与体液
+open clothes	穿着状态
+clothes lift	穿着状态
+see-through clothes	穿着状态
+torn clothes	穿着状态
+lifting own clothes	穿着状态
+shirt tucked in	穿着状态
+hood down	穿着状态
+bed sheet	家具家居
+fishnets	袜, 情趣服装
+male underwear	内衣（下）
+pantyshot	视角, 表现手法
+upskirt	视角, 表现手法
+commentary request	站务
+meme	站务
+censored	审查遮挡
+mosaic censoring	审查遮挡
+artist name	签名水印
+signature	签名水印
+watermark	签名水印
+copyright notice	签名水印
+blurry	画面效果
+parody	仿作
+style parody	仿作
+tachi-e	成品形式
+game cg	成品形式
+chibi	画风流派
+chibi only	画风流派
+cleavage cutout	款式细节
+clothing cutout	款式细节
+sleeveless	款式细节
+strapless	款式细节
+highleg	款式细节
+side slit	款式细节
+frills	款式细节
+zettai ryouiki	袜
+fur trim	材质
+lace	材质
+latex	材质
+leather	材质
+denim	材质
+hood	帽子
+suit	制服
+formal clothes	制服
+business suit	制服
+tuxedo	制服
+jewelry	其他饰品
+animal ear fluff	兽耳
+halo	光环与异形部位
+covered navel	腰腹
+on bed	基本姿势
+skindentation	腿
+thigh gap	腿
+claws	手
+light particles	光效
+box	日用杂物
+towel	日用杂物
+pillow	家具家居
+bed	家具家居
+couch	家具家居
+cross	符号图形
+headgear	头饰发饰
+erection	性征
+topless	裸露
+plant	植物
+bug	虫与爬行
+fish	水生动物
+holding hands	两人互动
+md5 mismatch	站务
+duplicate	站务
+web address	签名水印
+uncensored	审查遮挡
+stage	公共室内
+reflection	构图手法
+nature	自然
+chain	日用杂物, 束缚调教
+frozen	元素特效
+spanking	束缚调教
+tickle torture	束缚调教
+whipping	束缚调教
+wooden horse	束缚调教
+cbt	束缚调教
+cbt press	束缚调教
+ball busting	束缚调教
+nipple torture	束缚调教, 道具
+clitoris torture	束缚调教
+post orgasm torture	束缚调教
+predicament bondage	束缚调教
+x-cross (bdsm)	束缚调教
+forced to watch	表现手法
+ero guro	猎奇
+dismemberment	猎奇
+mutilation	猎奇
+burnt	伤与包扎
+animal skeleton	其他动物
+disembodied head	光环与异形部位
+pile of skulls	点缀元素
+hole on body	光环与异形部位
+# ---- 复查：主位在 R18 原子上、分级数据却 q+e <50% 的 111 个，和作品数 ≥1000 分不了的；? = 分不了 ----
+bara	画风流派, 体型
+topless male	穿着状态, 裸露
+cuffs	手饰, 束缚调教
+backless outfit	款式细节
+bare back	颈肩背
+naked towel	睡衣家居, 裸露
+handcuffs	手饰, 束缚调教
+in container	日用杂物
+shackles	手饰, 束缚调教
+babydoll	睡衣家居, 情趣服装
+corruption	变装改动, 表现手法
+downblouse	视角
+whip	冷兵器, 束缚调教
+strap pull	穿着状态
+sideless outfit	款式细节
+cage	日用杂物
+riding crop	日用杂物, 束缚调教
+tied up (nonsexual)	手臂姿势
+possessed	变装改动
+paddle	日用杂物, 束缚调教
+censored identity	画面效果
+purple rope	日用杂物, 束缚调教
+ankle cuffs	腿饰, 束缚调教
+implied yuri	关系
+chemise	睡衣家居, 内衣（上）
+unconscious	日常动作
+stepped on	两人互动, 束缚调教
+implied yaoi	关系
+puppet strings	玩具游戏
+broken chain	日用杂物
+in the face	战斗动作
+bad end	?
+black babydoll	睡衣家居, 情趣服装
+white babydoll	睡衣家居, 情趣服装
+strap lift	穿着状态
+uncommon stimulation	性行为
+straitjacket	上衣, 束缚调教
+clone harem	人数, 多人
+diaper	内衣（下）
+naked overalls	裸露, 裤
+ball and chain restraint	腿饰, 束缚调教
+they had lots of sex afterwards (meme)	表现手法, 文字对白
+human furniture	两人互动, 束缚调教
+entangled	?
+pink babydoll	睡衣家居, 情趣服装
+virgin killer outfit	上衣, 款式细节
+frilled babydoll	睡衣家居, 情趣服装
+implied nudity	裸露
+chain around arm	手饰
+food between breasts	胸, 食物, 性行为
+in cage	日用杂物, 束缚调教
+constriction	?
+lifting covers	家具家居
+shirt slip	穿着状态
+coconut cup	泳装
+anatomy	成品形式, 表现手法
+single handcuff	手饰, 束缚调教
+censored profanity	文字对白
+cape lift	穿着状态
+mechanical tentacles	光环与异形部位, 机甲科技
+conjoined	光环与异形部位
+censored food	食物
+downpants	视角
+ruined for marriage	情绪, 表现手法
+wax	日用杂物, 束缚调教
+implied erection	性征
+censored gesture	手势
+hypnotizing viewer	眼型瞳孔
+fake censor	审查遮挡
+eargasm	性行为
+buying condoms	道具, 日常动作
+lace-trimmed babydoll	睡衣家居, 情趣服装, 款式细节
+red babydoll	睡衣家居, 情趣服装
+food as clothes	食物
+chain around neck	颈饰, 束缚调教
+red leash	日用杂物, 束缚调教
+chain between breasts	其他饰品, 胸
+handcuff dangle	手饰
+open cuffs	手饰, 束缚调教
+shared handcuffs	手饰, 两人互动
+censored violence	画面效果
+broken handcuffs	手饰
+udder	光环与异形部位, 性征
+no genitals	性征
+in sack	日用杂物
+implied pornography	表现手法
+naked poncho	裸露, 外套
+teddy (lingerie)	连体紧身, 情趣服装
+bulge peek	性征
+censored feet	脚
+implied breast milk	表现手法
+censored thought	文字对白
+yobai	性行为
+yomorio lingerie	内衣（上）, 情趣服装
+surgeon	身份职业
+training outfit (fire emblem engage)	制服
+top! clover (idolmaster)	?
+laughing man (gits)	符号图形, 梗与联动
+fake pregnancy	腰腹
+embryo	?
+cat testicles	猫, 性征
+guided pectoral grab	性行为
+transverse plane cutting	?
+robe slip	穿着状态
+sumaki (action)	家具家居
+gold	材质
+transparent	材质
+deformed	画风流派
+smell	漫画符号
+left-handed	手
+what	漫画符号
+canon event	梗与联动
+no feet	脚
+between thighs	腿
+absurdly detailed composition	构图手法
+pointing out the details	文字对白
+perversion of canon	变装改动
+x	符号图形
+in cup	餐具容器
+vocaloid append	变装改动
+in palm	手
+multiple riders	交通工具
+symbolism	构图手法
+merchandise	成品形式
+living clothes	幻想生物
+human scabbard	冷兵器
+animal on arm	其他动物
+super saiyan 4	变装改动
+dragon bean (arknights)	日用杂物
+log pose	手饰
+cracked glass	画面效果
+expressive clothes	漫画符号
+splatter	画面效果
+height chart	体型
+animal with hair	其他动物
+creature on head	幻想生物
+animal head	种族
+inktober	媒介
+ugly man	人设属性
+persona (summon)	作品生物
+dynamax	作品生物
+suicide	伤与包扎
+onbashira	建筑名胜
+creature on shoulder	幻想生物
+ambiguous red liquid	伤与包扎
+sophist's robe (ff14)	外套
+undersized animal	其他动物
+star guardian (league)	变装改动
+rust	材质
+star guardian (league of legends)	变装改动
+animal on hand	其他动物
+memosprite	作品生物
+other with female	关系
+blob	幻想生物
+gigantamax	作品生物
+super saiyan blue	变装改动
+cutout eyelashes	头面
+underworld (ornament)	其他饰品
+sailor swimsuit (idolmaster)	泳装
+announcement celebration	成品形式
+wood	材质
+translucent	材质
+control rod (touhou)	光环与异形部位
+recurring image	构图手法
+food-themed creature	幻想生物, 食物
+tentacle grab	幻想生物
+# 原子例子检查里 Danbooru 给不出结构的。verbs_and_gerunds 是一张平铺的动词表，全落在「日常动作」
+laughing	笑
+swimming	移动, 运动
+climbing	移动
+punching	战斗动作
+kicking	战斗动作
+slashing	战斗动作
+battle	战斗动作
+dancing	表演
+drooling	汗与体液
+# posture 页把这几个放在 sitting / standing 下面（基本姿势）、把 variations 放在透视景深，按原子说明归
+crossed legs	腿部姿势
+standing on one leg	腿部姿势
+fighting stance	定型姿势
+variations	多格版式
+# 两边都对的挂两处（Danbooru 归在 lighting 的光源）；crab 在 food_tags 里排在动物前面
+sun	天空宇宙, 光源
+lightning	天气, 光源
+crab	水生动物, 食物
+# Danbooru 只在说明文字里提到、或者只在大杂烩小节里的
+weapon	武器通用
+instrument	乐器
+doll	玩具游戏
+mirror	日用杂物
+flower	花
+apartment	居家
+crossover	梗与联动
+condom	道具
+after sex	表现手法
+implied sex	表现手法
+# torture 主位挂酷刑（R18G）；amputee 留全年龄的伤与包扎，armless / legless amputee 跟它一起（quadruple amputee 归猎奇）
+torture	酷刑
+amputee	伤与包扎
+armless amputee	伤与包扎
+legless amputee	伤与包扎
+# 只靠分组页说明文字挂上的归属，按词义检查
+creature	幻想生物
+people	人数
+crowd	人数
+character counter request	站务
+facepaint	妆容
+glitter	点缀元素
+embers	元素特效
+sexually suggestive	表现手法
+phallic symbol	表现手法
+yonic symbol	表现手法
+real world location	真实地点
+chinese new year	季节节日
+dia de muertos	季节节日
+nihongami	盘发
+yuanbao	盘发
+toe seam	袜
+feet only	取景
+sapling	植物
+ground vehicle	交通工具
+fn scar 16	枪械火器
+dive	移动
+internet	电子设备
+petal censor	审查遮挡
+superman exposure	定型姿势
+branding iron	束缚调教
+henna	痣疤纹身
+la liga	运动
+serie a	运动
+hanged	猎奇
+body horror	猎奇
+# 主位归属检查（dogs 页 Misc 里的 animal、accessories 页 Misc 里的饰品、symbols 页标题「Playing Card」那一节其实是花色等）
+animal	其他动物
+door	家具家居
+tail ornament	其他饰品
+wing ornament	其他饰品
+foodgasm	情绪
+photo (object)	日用杂物
+dakimakura (medium)	成品形式
+glass	材质
+doll joints	光环与异形部位
+playing card	玩具游戏
+# 按 nsfw.tsv 的标准降档、主位与词义不符的 R18 原子归属，挪到词义所在的维度（档写在 nsfw.tsv）。
+#   被绑按身体部位（手臂姿势 / 腿部姿势 / 手 / 脚），整个人被绑 / 被俘同 hostage、prisoner 放身份职业；塞口放面具眼罩；牵绳放颈饰；掀衣拉衣放穿着状态
+bound	身份职业
+restrained	身份职业
+immobilization	身份职业
+encasement	身份职业
+bound together	身份职业
+chained	身份职业
+captured	身份职业
+kidnapped	身份职业
+tied to stake	身份职业
+bound torso	躯干头部
+tied to chair	家具家居
+bound wrists	手臂姿势
+bound arms	手臂姿势
+arms bound apart	手臂姿势
+wrists bound apart	手臂姿势
+arms bound above head	手臂姿势
+necktie around wrists	手臂姿势, 领饰
+cuffed	手臂姿势
+chained wrists	手臂姿势
+bound fingers	手
+bound thumbs	手
+bound legs	腿部姿势
+bound leg	腿部姿势
+bound ankles	腿部姿势
+bound thighs	腿部姿势
+bound knees	腿部姿势
+bound calves	腿部姿势
+chained legs	腿部姿势
+bound feet	脚
+bound toes	脚
+arm held back	两人互动
+in cell	公共室内
+behind bars	地面墙面
+rectangular cage	日用杂物
+head cage	头盔冠冕
+restraints	手饰
+red rope	日用杂物
+black rope	日用杂物
+gag	面具眼罩
+gagged	面具眼罩
+improvised gag	面具眼罩
+cloth gag	面具眼罩
+tape gag	面具眼罩
+over the mouth gag	面具眼罩
+over the nose gag	面具眼罩
+cleave gag	面具眼罩
+knot gag	面具眼罩
+rope gag	面具眼罩
+gag around neck	面具眼罩
+unworn gag	面具眼罩
+ungagged	面具眼罩
+applying gag	面具眼罩
+removing gag	面具眼罩
+hand gagged	两人互动
+leash	颈饰
+chain leash	颈饰
+black leash	颈饰
+pink leash	颈饰
+dog lead	颈饰
+leash pull	颈饰
+chain pull	颈饰
+viewer holding leash	视角, 颈饰
+viewer on leash	视角, 颈饰
+offering leash	颈饰
+leash in mouth	嘴型, 颈饰
+asphyxiation	日常动作
+choking on object	日常动作
+cat o' nine tails	冷兵器
+spanked	伤与包扎
+fuzzy handcuffs	手饰
+shirt lift	穿着状态
+skirt lift	穿着状态
+sweater lift	穿着状态
+kimono lift	穿着状态
+yukata lift	穿着状态
+pants pull	穿着状态
+pantyhose pull	穿着状态
+shorts pull	穿着状态
+skirt pull	穿着状态
+hakama pull	穿着状态
+pajamas pull	穿着状态
+dress pull	穿着状态
+top pull	穿着状态
+kimono pull	穿着状态
+underwear only	内衣（下）, 内衣（上）
+clothed male underwear female	穿着状态
+untied bikini top	泳装
+untied bikini bottom	泳装
+jockstrap	内衣（下）
+c-string	内衣（下）
+strapless bottom	内衣（下）
+see-through babydoll	睡衣家居
+bow babydoll	睡衣家居
+yellow babydoll	睡衣家居
+towel slip	睡衣家居
+naked sheet	睡衣家居
+convenient leg	腿部姿势
+convenient hand	手的位置
+hand shadow covering breasts (meme)	梗与联动
+can't show this (meme)	梗与联动
+bubble filter	画面效果
+redaction	文字对白
+pregnant	腰腹
+big belly	腰腹
+multiple pregnancy	腰腹
+implied pregnancy	腰腹
+food on body	食物
+chocolate on body	甜点零食
+cream on body	甜点零食
+torso grab	两人互动
+pectoral grab	胸
+head on ass	两人互动
+licking stomach	日常动作
+licking back	日常动作
+imminent licking	日常动作
+ass clap	臀胯
+stepping on viewer	视角
+implied stepping	腿部姿势
+hypnosis	日常动作
+hypnosis app	电子设备
+feigning hypnosis	日常动作
+broken hypnosis	日常动作
+caught	情绪
+walk-in	日常动作
+implied hetero	关系
+through wall	地面墙面
+naughty face	笑
+bed invitation	手势
+morning after	时间
+instant loss	多格版式
+like an ero-doujin	梗与联动
+clothes-dissolving potion	魔法道具
+spasm	漫画符号
+nervous system	成品形式
+tentacles	幻想生物
+tentacle clothes	材质
+lotion	日用杂物
+lotion bottle	日用杂物
+massaging device	日用杂物
+covenant halo (girls' frontline 2)	手饰
+# R18 / R18G 档里主位挂在不沾边原子上的（归属在 assign.tsv，Danbooru 分组页里没有这些词，映射层修不了）
+#   trefoil：内裤 / 紧身衣勒出臀部和阴部的三叶形（Danbooru 定义），同 wedgie，不归符号图形
+trefoil	臀胯, 性征
+yellow nipples	胸, 性征
+excessive lactation	胸, 性行为
+lube on breasts	胸, 体液
+tail in ass	性行为, 尾巴
+strip poker	玩具游戏, 裸露
+cum on wall	体液
+length markings	痣疤纹身, 性征
+blocked senses	性行为
+dilation tape	道具
+#   名字本身不露骨、没有分级数据时档跟着原子走，不应挂性征 / 性行为：escrima sticks 是菲律宾短棍，lemon tree 是柠檬树
+escrima sticks	冷兵器
+lemon tree	植物
+#   已弃用的 disembodied limb（新写法 disembodied hand / arm / head / eye 都是全年龄）和同族的 disembodied foot：脱离身体的肢体不是猎奇（断肢是 severed X）
+disembodied limb	光环与异形部位
+disembodied foot	脚

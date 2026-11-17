@@ -1,0 +1,407 @@
+# Danbooru 分组页（tag_group:*）和几份 list_of_* 页的小节 → 原子，自动挂用。
+# 列：页	小节	原子（小节 * = 这页没单独写的小节；原子 - = 这一节不挂）。按行序优先：一个 tag 出现在几处时，先匹配到的行是主位。
+# R18 / R18G 的原子不抢主位：tag 的主位在别处时，只作为第二个位置加上。
+页	小节	原子
+overrides	*	-
+makeup	Objects and Scenery	日用杂物
+makeup	Related tags	-
+makeup	*	妆容
+headwear	Helmets	头盔冠冕
+headwear	Crowns	头盔冠冕
+headwear	Other	头饰发饰
+headwear	Accessories	头饰发饰
+headwear	Actions / states	穿着状态
+headwear	Not headwear	-
+headwear	Types	-
+headwear	*	帽子
+eyewear	*	眼镜
+hair_color	Multiple colors	挑染渐变
+hair_color	*	发色
+hair_styles	Length and volume	发长
+hair_styles	Very short hair	发长
+hair_styles	Short hair	发长
+hair_styles	Medium hair	发长
+hair_styles	Long hair	发长
+hair_styles	Braids	编发
+hair_styles	Hair buns	盘发
+hair_styles	Ponytails	扎发
+hair_styles	Elaborately-tied hair	盘发
+hair_styles	Traditional Chinese	盘发
+hair_styles	Front of the head (incl. bangs)	刘海前发
+hair_styles	Top of the head	刘海前发
+hair_styles	*	发质造型
+hair	Actions	头发动作
+hair	Objects for hair care	日用杂物
+hair	Accessories for the hair	头饰发饰
+hair	Facial hair	胡须体毛
+hair	Miscellaneous	头发动作
+hair	*	发质造型
+eyes_tags	Individual colors of the iris	眼睛颜色
+eyes_tags	Multiple colors of the iris	眼睛颜色
+eyes_tags	Colors of the pupils	眼睛颜色
+eyes_tags	Stylistic eyes, for emotion or comedy	眼部表情
+eyes_tags	Emotions and expressions	眼部表情
+eyes_tags	One or two eyes closed	眼部表情
+eyes_tags	Misc / Actions	眼部表情
+eyes_tags	Number of eyes	光环与异形部位
+eyes_tags	Accessories for the eyes; Eyes covered	面具眼罩
+eyes_tags	Gazes	视线
+eyes_tags	*	眼型瞳孔
+symbols	Symbols of emotions	漫画符号
+face_tags	Main	-
+face_tags	Sexual	表现手法
+face_tags	Smile	笑
+face_tags	Smug	笑
+face_tags	Emotes	漫画符号
+face_tags	Meme faces	漫画符号
+face_tags	Looking at...	视线
+face_tags	See Also	-
+face_tags	Misc	-
+face_tags	*	情绪
+ears_tags	Other ears	耳
+ears_tags	Number of ears	耳
+ears_tags	Objects for the ears; or, objects with ears	耳饰
+ears_tags	*	兽耳
+wings	Unrelated	-
+wings	*	翅膀
+skin_color	*	肤色
+breasts_tags	Whole breasts visible	裸露
+breasts_tags	Clothes for breasts	内衣（上）
+breasts_tags	Penis on breasts	性行为
+breasts_tags	Head on breasts	两人互动
+breasts_tags	Mouth on breasts	性行为
+breasts_tags	Hands on breasts	手的位置
+breasts_tags	Feet on breasts	性行为
+breasts_tags	Toys on breasts	道具
+breasts_tags	Docking	性行为
+breasts_tags	*	胸
+ass	Anatomy of the anus	性征
+ass	Ass and hands	手的位置
+ass	Ass and heads	性行为
+ass	Ass with cum	体液
+ass	*	臀胯
+feet	Clothing & Accessories	-
+feet	Misc / Technical	-
+feet	*	脚
+jobs	*	身份职业
+list_of_armor	Shield	冷兵器
+list_of_armor	*	戏服铠甲
+shoulders	Anatomy of shoulders	颈肩背
+shoulders	Other attire, on shoulders	围巾披肩
+shoulders	Hands / arms with shoulders	手的位置
+shoulders	People touching shoulders	两人互动
+shoulders	Exposed shoulders	穿着状态
+shoulders	Objects with shoulders	-
+shoulders	Animals with shoulders	-
+shoulders	*	款式细节
+body_parts	Head	头面
+face_tags	Drawing styles	漫画符号
+body_parts	*	-
+neck_and_neckwear	Anatomy of the neck	颈肩背
+neck_and_neckwear	Actions / Posture	穿着状态
+neck_and_neckwear	Neckwear actions	穿着状态
+neck_and_neckwear	Chokers and Standalone Collars	颈饰
+neck_and_neckwear	Other Standalone	颈饰
+neck_and_neckwear	Chokers	颈饰
+neck_and_neckwear	Necklaces	颈饰
+neck_and_neckwear	Accessories	颈饰
+neck_and_neckwear	Shirt and Dress Collar Designs	款式细节
+neck_and_neckwear	Collared clothes	款式细节
+neck_and_neckwear	On Shoulders	围巾披肩
+neck_and_neckwear	scarf|Scarves	围巾披肩
+neck_and_neckwear	*	领饰
+sleeves	Sleeveless clothing	款式细节
+sleeves	Actions	穿着状态
+sleeves	*	袖子
+legwear	Bands	腿饰
+legwear	Action	穿着状态
+legwear	*	袜
+handwear	Hand Accessories	手饰
+handwear	Rings	手饰
+handwear	Other handwear	手饰
+handwear	Hand markings	痣疤纹身
+handwear	Glove interactions	穿着状态
+handwear	*	手套
+injury	(top)	-
+injury	Medical service / Misc	-
+injury	*	伤与包扎
+accessories	Head	头饰发饰
+accessories	Neck	颈饰
+accessories	Arms	手饰
+accessories	Legs	腿饰
+accessories	Bags	包与随身
+accessories	Misc	日用杂物
+accessories	*	其他饰品
+mask	*	面具眼罩
+swimsuit	*	泳装
+attire	Headwear and Headgear	头饰发饰
+attire	Shirts and Topwear	上衣
+attire	Pants and Bottomwear	裤
+attire	Legs and Feet	袜
+attire	Shoes and Footwear	鞋
+attire	Uniforms and Costumes	戏服铠甲
+attire	Swimsuits and Bodysuits	连体紧身
+attire	Traditional Clothing	传统民族
+attire	Head and Face	头饰发饰
+attire	Neck and Shoulders	颈饰
+attire	Limbs	手饰
+attire	Torso and Misc	其他饰品
+attire	Patterns	图案
+attire	Prints	图案
+attire	*	-
+fashion_style	*	服装风格
+patterns	*	图案
+prints	*	图案
+sexual_attire	BDSM	束缚调教
+sexual_attire	Exposure	情趣服装
+sexual_attire	*	情趣服装
+nudity	Dressing / Covering body parts	穿着状态
+nudity	Touching clothes	穿着状态
+nudity	Exposed shoulders or arms	穿着状态
+nudity	Exposed head or neck	穿着状态
+nudity	Focus on exposed legs or feet	穿着状态
+nudity	Naughty points of view	表现手法
+nudity	Any clothes	穿着状态
+nudity	Misc / more	-
+nudity	*	裸露
+character_count	Female, male and other focus	人数
+character_count	Related tags	-
+character_count	*	人数
+artistic_license	*	变装改动
+transgender	*	性别
+gender_nonconformity	*	性别
+family_relationships	*	关系
+groups	*	关系
+posture	Basic positions	基本姿势
+posture	Other postures potentially involving the whole body	基本姿势
+posture	Other rest points of the body	躯干头部
+posture	Movement of the body	移动
+posture	Posture of the head	躯干头部
+posture	Torso inclination	躯干头部
+posture	Poses	定型姿势
+posture	Signature poses	定型姿势
+posture	Hips	躯干头部
+posture	Basic arm position	手臂姿势
+posture	More specific arm position	手臂姿势
+posture	Hand position	手的位置
+posture	Hands touching each other (one or more characters)	手的位置
+posture	Leg location	腿部姿势
+posture	Knee location	腿部姿势
+posture	Foot position	腿部姿势
+posture	*	两人互动
+gestures	*	手势
+hands	Hands on another person - Shoulders and up	两人互动
+hands	Hands on another person - Below shoulders	两人互动
+hands	Strange Hands	手
+hands	*	手的位置
+covering	*	手的位置
+dances	*	表演
+holding_tags	*	-
+drawing_software	*	数字与软件
+text	Image metadata	签名水印
+image_composition	View Angle	视角
+image_composition	Perspective/Depth	透视景深
+image_composition	Framing the body	取景
+image_composition	Composition	构图手法
+image_composition	Format	成品形式
+image_composition	Subject matter	焦点
+image_composition	Styles	画风流派
+image_composition	Traditional media	媒介
+image_composition	Other	画风流派
+image_composition	Techniques	画面效果
+image_composition	Traditional Japanese Patterns	图案
+image_composition	Other Patterns	图案
+image_composition	Flaws	瑕疵
+image_composition	*	-
+focus_tags	*	焦点
+list_of_style_parodies	By Decade	年代画风
+list_of_style_parodies	By Design	画风流派
+list_of_style_parodies	*	仿作
+visual_aesthetic	Art styles	画风流派
+visual_aesthetic	*	美学风格
+fine_art_parody	*	仿作
+lighting	Directional	光向
+lighting	Time of day lighting	时间
+lighting	Natural	光源
+lighting	Artificial	光源
+lighting	Absence of light	明暗
+lighting	*	光效
+colors	Single-Color Themes	单色限色
+colors	No Color	单色限色
+colors	Partial Coloring	单色限色
+colors	Filters	画面效果
+colors	Techniques	上色
+colors	See also	-
+colors	*	色调
+censorship	*	审查遮挡
+sexual_positions	Bondage-specific	束缚调教
+sexual_positions	*	体位
+sex_objects	Sex Toys	道具
+sex_objects	BDSM / Bondage Gear	束缚调教
+sex_objects	Fluids	体液
+bdsm_and_torture	Torture	酷刑
+bdsm_and_torture	Torture Techniques	酷刑
+bdsm_and_torture	Beating	酷刑
+bdsm_and_torture	Devices	酷刑
+bdsm_and_torture	*	束缚调教
+pussy	Hands on pussy	性行为
+pussy	Pussy and fluids	体液
+pussy	Sexual objects and acts involving the pussy	性行为
+pussy	Pussy attire	情趣服装
+pussy	*	性征
+sex_acts	Group sex	多人
+sex_acts	Bondage and Discipline	束缚调教
+sex_acts	Cum Play	体液
+sex_acts	Exhibitionism, Publicity, Stealth and Voyeurism	表现手法
+sex_acts	Facial Expressions	表现手法
+sex_acts	Views	表现手法
+sex_acts	Scat and Urination	排泄
+sex_acts	Mutilation	猎奇
+sex_acts	Body Types	-
+sex_acts	Roles	-
+sex_acts	*	性行为
+simulated_sex_acts	*	表现手法
+text	Errors	瑕疵
+text	Translation	站务
+text	Actions	-
+text	*	文字对白
+phrases	*	文字对白
+japanese_dialects	*	文字对白
+metatags	*	站务
+year_tags	*	年份分级
+symbols	*	符号图形
+backgrounds	*	-
+locations	Indoors	公共室内
+locations	Natural settings	自然
+locations	Man-made	城市街道
+locations	Buildings	建筑名胜
+locations	Places of worship	建筑名胜
+locations	See also	-
+locations	Other	-
+locations	*	建筑名胜
+real_world_locations	*	真实地点
+holidays_and_celebrations	*	季节节日
+water	Wet	汗与体液
+water	Ice	元素特效
+water	Steam	元素特效
+water	Meteorology	天气
+water	Clothes	泳装
+water	Vehicles	交通工具
+water	Misc / Actions, Objects, Containers, Etc.	-
+water	*	水与水下
+fire	Objects associated with fire	日用杂物
+fire	Weapons	枪械火器
+fire	Actions	-
+fire	*	元素特效
+food_tags	Breads, grains, and starches	食物
+food_tags	Sweets, Snacks, and Desserts	甜点零食
+food_tags	Other Snacks	甜点零食
+food_tags	Drink	饮料
+food_tags	Drink / Condiment Containers	餐具容器
+food_tags	Utensils and Utilities	餐具容器
+food_tags	Professions and Establishments	-
+food_tags	Actions, Activities, Misc.	日常动作
+food_tags	Food-Related Companies, Brands, & Mascots	品牌
+food_tags	Sexual Content	性行为
+food_tags	About	-
+food_tags	See also	-
+food_tags	*	食物
+audio_tags	Players	电子设备
+audio_tags	Speakers and Headphones	电子设备
+audio_tags	Recorded Audio Media	电子设备
+audio_tags	Other Audio Devices	电子设备
+audio_tags	Headphones brands	品牌
+audio_tags	Brass	乐器
+audio_tags	Percussion	乐器
+audio_tags	Strings	乐器
+audio_tags	Woodwinds	乐器
+audio_tags	Keyboard Instruments	乐器
+audio_tags	Other Instruments	乐器
+audio_tags	*	表演
+computer	*	电子设备
+list_of_microphones	*	电子设备
+technology	Computers	电子设备
+technology	Personal communication (comms)	电子设备
+technology	Radio/long distance communication	电子设备
+technology	Electronic	电子设备
+technology	Land Vehicles	交通工具
+technology	Naval and marine	交通工具
+technology	Aerospace (spaceships and aircraft)	交通工具
+technology	Themes	世界观题材
+technology	Places	建筑名胜
+technology	Jobs	身份职业
+technology	Costumes & Clothes	戏服铠甲
+technology	Medical	日用杂物
+technology	Tools	日用杂物
+technology	*	机甲科技
+list_of_weapons	Melee	冷兵器
+list_of_weapons	Ranged (non-firearms)	冷兵器
+list_of_weapons	Actions	战斗动作
+list_of_weapons	See also	-
+list_of_weapons	Accessories & parts	-
+list_of_weapons	Design traits	-
+list_of_weapons	Other related tags	-
+list_of_weapons	Named weapons	武器通用
+list_of_weapons	*	枪械火器
+list_of_ground_vehicles	Markings/Symbols	符号图形
+list_of_ground_vehicles	*	交通工具
+list_of_airplanes	Markings/Symbols	符号图形
+list_of_airplanes	*	交通工具
+list_of_helicopters	*	交通工具
+list_of_ships	Markings/Symbols	符号图形
+list_of_ships	*	交通工具
+doors_and_gates	Actions	日常动作
+doors_and_gates	Gates	建筑名胜
+doors_and_gates	East Asian Gates	建筑名胜
+doors_and_gates	*	家具家居
+board_games	*	玩具游戏
+cards	*	玩具游戏
+list_of_game_activities	*	玩具游戏
+video_game	Hardware	电子设备
+video_game	Attacks, actions, health and damage	界面元素
+video_game	*	玩具游戏
+companies_and_brand_names	*	品牌
+sports	Equipment and objects	运动用品
+sports	*	运动
+list_of_weapons	Miscellaneous weapons	武器通用
+cats	Cat girls / Cat people / Cat attire / Cat body parts	种族
+cats	Things associated with the word "cat" by etymology	-
+cats	Cat-like characters and named cats	-
+cats	Cat-like Pokemon	-
+cats	Feline relatives	其他动物
+cats	*	猫
+dogs	Dog girls / Dog people / Dog attire / Dog body parts	种族
+dogs	Things associated with the word "dog" by etymology	-
+dogs	Dog Pokémon	-
+dogs	Fantastical dogs	幻想生物
+dogs	Similar animals	其他动物
+dogs	*	狗
+birds	Mythological birds	幻想生物
+birds	*	鸟
+list_of_animals	Insect / Bug	虫与爬行
+list_of_animals	Reptile / Amphibian	虫与爬行
+list_of_animals	Fish	水生动物
+list_of_animals	Whale	水生动物
+list_of_animals	Crustacean	水生动物
+list_of_animals	Aquatic invertebrate	水生动物
+list_of_animals	Cambrian animals	水生动物
+list_of_animals	Cat	猫
+list_of_animals	Dog	狗
+list_of_animals	See also	-
+list_of_animals	Categories	-
+list_of_animals	*	其他动物
+legendary_creatures	*	幻想生物
+flowers	*	花
+plant	*	植物
+tree	*	植物
+theme	*	-
+history	*	世界观题材
+subjective	*	-
+verbs_and_gerunds	*	日常动作
+people	*	-
+pixiv_projects	*	-
+role-playing_games	*	-
+shooter_games	*	-
+fighting_games	*	-
+platform_games	*	-
+visual_novel_games	*	-

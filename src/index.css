@@ -1,0 +1,159 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/ibm-plex-sans";
+@import "@fontsource-variable/geist";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+@import "./styles/tokens.css";
+@import "./styles/components.css";
+@import "./styles/chat.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-ui);
+  --font-heading: var(--font-ui);
+  --font-mono: var(--font-code);
+
+  --color-shell: var(--shell);
+  --color-work: var(--work);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink-1: var(--ink-1);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-lamp: var(--accent);
+  --color-lamp-ink: var(--accent-ink);
+  --color-lamp-text: var(--accent-text);
+  --color-danger: var(--danger);
+  --color-warn: var(--warn);
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--shadcn-accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 8px;
+}
+
+:root {
+  --diff-add-bg: oklch(0.94 0.05 150);
+  --diff-add-fg: oklch(0.4 0.1 150);
+  --diff-rm-bg: oklch(0.95 0.03 25);
+  --diff-rm-fg: oklch(0.5 0.13 25);
+  --radius: 8px;
+  --background: var(--work);
+  --foreground: var(--ink-1);
+  --card: var(--work);
+  --card-foreground: var(--ink-1);
+  --popover: var(--surface-3);
+  --popover-foreground: var(--ink-1);
+  --primary: var(--accent);
+  --primary-foreground: var(--accent-ink);
+  --secondary: var(--surface-2);
+  --secondary-foreground: var(--ink-1);
+  --muted: var(--surface-2);
+  --muted-foreground: var(--ink-3);
+  --shadcn-accent: var(--surface-2);
+  --accent-foreground: var(--ink-1);
+  --destructive: var(--danger);
+  --border: var(--line-strong);
+  --input: var(--line-strong);
+  --ring: var(--accent-text);
+}
+
+.dark {
+  --diff-add-bg: oklch(0.32 0.06 150);
+  --diff-add-fg: oklch(0.86 0.1 150);
+  --diff-rm-bg: oklch(0.32 0.05 25);
+  --diff-rm-fg: oklch(0.85 0.08 25);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    background: var(--shell);
+    color: var(--ink-1);
+    font-family: var(--font-ui);
+    font-size: var(--fs-ui);
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+  }
+  input,
+  textarea,
+  [contenteditable="true"] {
+    user-select: text;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  ::selection {
+    background: oklch(from var(--accent) l c h / 0.35);
+  }
+}
+
+/* Electron overlays native window controls on content; reserve their env-provided width and height, which are zero in browsers. */
+:root {
+  --wco-w: calc(100vw - env(titlebar-area-x, 0px) - env(titlebar-area-width, 100vw));
+  --wco-h: env(titlebar-area-height, 0px);
+}
+.app-drag {
+  -webkit-app-region: drag;
+  app-region: drag;
+}
+.editor-assistant .app-drag {
+  -webkit-app-region: no-drag;
+  app-region: no-drag;
+}
+.app-drag :is(button, a, input, textarea, select, label, [role="tablist"], [role="button"], [role="combobox"], [data-slot="slider"], [data-slot="tooltip-trigger"], [contenteditable="true"], [data-no-drag]) {
+  -webkit-app-region: no-drag;
+  app-region: no-drag;
+}
+
+.wco-backdrop {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  width: var(--wco-w);
+  height: var(--wco-h);
+}
+
+/* Radix inserts a display: table wrapper that expands to the longest line; use block layout so truncation and width constraints work. */
+[data-slot="scroll-area-viewport"] > div { display: block !important; }
+
+[data-lib-nav] { scroll-margin-top: 76px; }
+[data-lib-nav]:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: -2px;
+  border-radius: var(--radius-md);
+}

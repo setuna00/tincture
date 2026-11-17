@@ -1,0 +1,275 @@
+# 一张一般 / 敏感作品都没有的画师（数据集里至少 10 张）：scripts/build-artist-nsfw.mjs，HF isek-ai/danbooru-tags-2024（CC0，8603394 张，到 2024-12）
+# 名单 49467 个里数据集有 46107 个
+agus999
+ahhgik
+aianchor
+aku0
+amanda kenny
+amashun
+andou hiroyuki
+andrastae (voice actor)
+aopiqoo
+arunemu
+ayana maria (voice actor)
+ayanekouji
+azarashi (kkuh3353)
+azatychan
+bitchen
+bluejuniper
+bordeaux black (voice actor)
+broccoli (broccoli2626)
+buenvanilla
+burankoprn
+byme (bymetalala)
+byoushitsu 403
+cap (user dxfj5558)
+casch
+casytay
+chikahii
+chikubi (artist)
+chimomi ya
+chiyo (voice actor)
+chloe angel (voice actor)
+cinder dryad (voice actor)
+circle anco
+cloudlou
+code:074
+collector-x
+croove
+crybaby (gjgr5334)
+cthulhuchan
+cubedcoconut
+dada (xhmv8527)
+dankestofdans
+deep grand
+delalicious3 (voice actor)
+demimond23
+dendryte axxon
+detectiveneko
+dolekat
+doragon74
+dragk
+dreamplpe
+drifter (jrft3475)
+duemeng
+dzooworks
+edamame sushi (endn3483)
+edenmaniac
+edjim
+efto
+elegia
+enamiru
+enozuderu
+enuzoushigaya
+ever (nann2013)
+exga
+femuto
+fenqury
+fishsyrup
+flipzrok
+fpsblyck
+funen gomi m
+furanh
+fuzzamorous
+gemini starsign (voice actor)
+gemuo
+general butch
+gixarart
+glassjill
+gomadare (310329)
+grand cupido
+gunsmoke
+hamo (user zuky3273)
+hamuta (machosbrown)
+hanataka retomo
+hanenashi
+happa freee
+hatahata (hnuj4272)
+hatsutsuki
+hawkboku
+heartszora
+hedit
+henkawa
+hoqn
+hutamaru
+icedev
+idemi
+ikumin (ikumin oekaki)
+ikusagawa
+indfald
+ironashi
+issyu kann
+jason jmca
+jiang qian xiao
+jj.jj
+jontxu
+jubi (voice actor)
+kagironsfw
+kamanbearu
+kamotaro
+kanon'yuyu
+karasu h
+karuru
+kassioppia (voice actor)
+katsuragimay18h
+kazahari kazuho
+kemonya777
+kenzenchan18
+kinkhead (jjjv7433)
+kinta (kinta no mousou)
+kirufencer
+kmbk0209
+kokman
+ktrtokyo
+kududama
+kujya
+kusarou
+lafxia
+lamia (voice actor)
+leo greystone (voice actor)
+lewdzure
+llama8
+longcloud
+lophilia spicy
+lovehinba
+luxsumildo
+lvl3toaster
+m71
+mac star (voice actor)
+magicmoonsarts
+mare ten
+markydaysaid
+mellewd
+meronshiroppu
+merry program
+midnight datura (voice actor)
+mikaelya (voice actor)
+mikoshiba (platinum bash)
+mimi (pixiv51030577)
+mimi hung (voice actor)
+mimizuki90
+miroku (kyon35)
+misuzugon (voice actor)
+miyako omty
+mizumizuni
+mochimochi momo
+momikocu
+momomo udameda
+morfina
+mrpenning
+muraka (numacha)
+musi cassie
+mustblove
+nagase yuuki
+nagoonimation
+nairisa
+namaitachi
+nami955 (voice actor)
+namuhanka tart
+nazunobasho
+neneg
+nivi
+niwano 7hoshi
+nnilaee
+nom mia
+nyangoroo (nekopanchi bashibashi)
+nyarimia
+nyl
+okitaima
+onemoreray
+onomi9ta
+ootomoyaki
+ore no kome
+orga
+osanai shiina
+oshishan
+osimder
+owusyr
+paradox 1818
+pepero (prprlo)
+pewposterous
+piccione
+pineapp panda
+pink pet bottle
+pixzapix
+plastic erazer
+pokiyu
+ppolar
+princessofpower
+prixy
+ptrt
+pukupukubu
+qoopie
+quadrastate
+raigandraws
+random tide
+ratbawz
+rawell (rawell1596)
+rbx lamen
+reddish fox
+reeceyd3
+rigid3d
+riizuwu (voice actor)
+rino99
+ruby red (voice actor)
+sabakan oekaki
+saberwolf8
+sadieyule
+sakuradou
+satsuki itsuka
+sbeve2004
+schpicy
+se34tai
+sema (mekemeke king)
+settei setti
+shiina ecchi
+shikikat
+shinda292
+shirakamii
+shirasaka pinaho
+shiwa kou
+shizuwonderland
+sos adult
+spizzy
+studio sunadokei
+sweetsmilensfw
+ta152 (graf zeppelin)
+tagovantor
+taihengold
+tamonmaru
+tanakatanaka12
+teiputi
+tempty (voice actor)
+textolyte
+timbocactus
+tiningot196
+tomatoman01c
+toya1s
+trand1008
+tuoni
+udonurahara
+umezawa itte
+valueless0000
+vgerotica
+vixxen (voice actor)
+volkor
+vvv (vvv98048917)
+watabonten
+water beryl
+wawa (lingomogu)
+wdmov
+woolrool
+yagiyama hituzi
+yakikarubi
+yakinasu87
+yas (35373)
+yousan (pixiv540898)
+yutaka (yutakadeath)
+yuuri splatoon
+zako sketch
+zergbrush
+zerodo
+zetsu red
+zkky2nd
+zmsfm
+zurikitty
